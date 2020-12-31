@@ -1,0 +1,16 @@
+#nav {
+    display: flex;
+    /* justify-content: flex-end; */
+    /* float: right; */
+    /* justify-content: flex-end; */
+}
+
+#elt-1 {
+    /* float: right; */
+    margin-right: auto;
+}
+
+#elt {
+    background-color: yellow;
+    margin: 0px 50px;
+}
