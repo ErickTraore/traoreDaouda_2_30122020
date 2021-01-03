@@ -1,16 +1,90 @@
-#nav {
-    display: flex;
-    /* justify-content: flex-end; */
-    /* float: right; */
-    /* justify-content: flex-end; */
-}
-
-#elt-1 {
-    /* float: right; */
-    margin-right: auto;
-}
-
-#elt {
-    /* background-color: yellow; */
-    margin: 0px 50px;
-}
+                        #nav {
+                            display: flex;
+                            /* justify-content: flex-end; */
+                            /* float: right; */
+                            /* justify-content: flex-end; */
+                        }
+                        
+                        #elt-1 {
+                            /* float: right; */
+                            margin-right: auto;
+                        }
+                        
+                        #elt {
+                            /* background-color: yellow; */
+                            margin: 0px 50px 0px 5px;
+                            /* float: left; */
+                            /* text-align: center; */
+                            /* text-align: left; */
+                            /* text-align: right; */
+                        }
+                        
+                        div {
+                            /* border: 1px solid #3CC; */
+                            /* height: 25px; */
+                            /* margin: 10px 10px; */
+                            /* padding: 10px; */
+                        }
+                        
+                        #card {
+                            /* background-color: yellow; */
+                            margin: 0px 50px 0px 5px;
+                            width: 310px;
+                            height: 30px;
+                            display: table;
+                            /*text-align: right;
+    */
+                            text-align: center;
+                            /*text-align: left;
+    */
+                            display: flex;
+                        }
+                        
+                        #elt-a {
+                            background-color: #a82929;
+                            border-radius: 20px 0px 0px 20px;
+                            text-align: center;
+                            width: 40px;
+                            height: 30px;
+                            display: table;
+                            /* height: 20px; */
+                            -webkit-border-radius: 20px 0px 0px 20px;
+                            -moz-border-radius: 20px 0px 0px 20px;
+                            -ms-border-radius: 20px 0px 0px 20px;
+                            -o-border-radius: 20px 0px 0px 20px;
+                        }
+                        
+                        #elt-b {
+                            margin: 0px 50px 0px 15px;
+                            text-align: left;
+                            width: 50;
+                            height: 30px;
+                            display: table;
+                        }
+                        
+                        #elt-c {
+                            border-radius: 0px 10px 10px 0px;
+                            background-color: #0065FC;
+                            height: 30px;
+                            text-align: center;
+                            display: table;
+                            -webkit-border-radius: 0px 10px 10px 0px;
+                            -moz-border-radius: 0px 10px 10px 0px;
+                            -ms-border-radius: 0px 10px 10px 0px;
+                            -o-border-radius: 0px 10px 10px 0px;
+                        }
+                        
+                        #elt-a span {
+                            display: table-cell;
+                            vertical-align: middle;
+                        }
+                        
+                        #elt-b span {
+                            display: table-cell;
+                            vertical-align: middle;
+                        }
+                        
+                        #elt-c span {
+                            display: table-cell;
+                            vertical-align: middle;
+                        }
