@@ -386,18 +386,18 @@ body {
 }
 
 .first,
+.third,
 .card_first {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    /* align-items: stretch; */
     width: 350px;
     height: 600px;
 }
 
-.third img,
 .fourth_one img,
 .fourth_two img {
-    width: 350px;
+    width: 391px;
     height: auto;
 }
 
@@ -409,6 +409,7 @@ body {
     height: 450px;
 }
 
+.third img,
 .first img {
     min-height: 100%;
     max-width: 100%;
