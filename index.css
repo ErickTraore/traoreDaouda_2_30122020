@@ -414,6 +414,8 @@ body {
     border: 2px solid yellow;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .first,
@@ -423,20 +425,36 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 30px 30px 30px 30px;
-    background-color: #F2F2F2;
     width: 320px;
     height: 480px;
     -webkit-border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
     -ms-border-radius: 30px 30px 30px 30px;
     -o-border-radius: 30px 30px 30px 30px;
+    /* box-shadow: 0 0 0 1px #555; */
+    box-shadow: 1px 1px 12px #F2F2F2;
 }
+
+
+/* 
+.elmt_3-0 {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 12px #F2F2F2;
+    width: 96%;
+    height: 90%;
+    border-radius: 20px 20px;
+    -webkit-border-radius: 20px 20px;
+    -moz-border-radius: 20px 20px;
+    -ms-border-radius: 20px 20px;
+    -o-border-radius: 20px 20px;
+} */
 
 .fourth_one,
 .fourth_two {
     width: 320px;
-    height: 42%;
-    background-color: #F2F2F2;
+    height: 33%;
+    box-shadow: 1px 1px 12px #F2F2F2;
     border-radius: 30px 30px 30px 30px;
     -webkit-border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
@@ -447,7 +465,7 @@ body {
 .fourth_one img,
 .fourth_two img {
     width: 100%;
-    height: 68%;
+    height: 70%;
     border-radius: 30px 30px 0px 0px;
     -webkit-border-radius: 30px 30px 0px 0px;
     -moz-border-radius: 30px 30px 0px 0px;
@@ -460,8 +478,8 @@ body {
     flex-direction: column;
     width: 320px;
     height: 280px;
+    box-shadow: 1px 1px 12px #F2F2F2;
     border-radius: 30px 30px 30px 30px;
-    background-color: #F2F2F2;
     -webkit-border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
     -ms-border-radius: 30px 30px 30px 30px;
@@ -473,8 +491,12 @@ body {
     flex-direction: column;
     width: 320px;
     height: 150px;
-    border-radius: 20px 20px 20px 20px;
-    background-color: #F2F2F2;
+    box-shadow: 1px 1px 12px #F2F2F2;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px 30px;
+    -o-border-radius: 30px 30px 30px 30px;
 }
 
 .third img,
@@ -489,8 +511,22 @@ body {
     -o-border-radius: 30px 30px 0px 0px;
 }
 
+.card_second {
+    display: flex;
+    flex-direction: column;
+    height: 68%;
+    width: auto;
+    justify-content: space-between;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px 30px;
+    -o-border-radius: 30px 30px 30px 30px;
+    box-shadow: #F2F2F2;
+}
+
 .second_one img {
-    height: 90%;
+    height: 75%;
     width: 100%;
     object-fit: cover;
     border-radius: 30px 30px 0px 0px;
@@ -501,7 +537,7 @@ body {
 }
 
 .second_two img {
-    height: 33.5%;
+    height: 51%;
     width: 100%;
     object-fit: cover;
     border-radius: 30px 30px 0px 0px;
