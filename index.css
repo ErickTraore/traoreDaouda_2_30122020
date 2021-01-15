@@ -48,6 +48,22 @@ input {
     border: none;
 }
 
+header {
+    border: 2px solid red;
+    max-width: 1550px;
+    margin: 0;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid red;
+    max-width: 1550px;
+    margin: 0;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
 #card-2 {
     margin: 10px 30px 0px 5px;
     width: auto;
@@ -142,13 +158,14 @@ input {
 
 .partie_une {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .box_un {
     padding: 10px;
     background-color: #F2F2F2;
     margin: 10px 10px 10px 10px;
-    width: 1000px;
+    width: 950px;
     border-radius: 30px 30px 30px 30px;
     -webkit-border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
@@ -160,7 +177,7 @@ input {
     padding: 10px;
     background-color: #F2F2F2;
     margin: 10px 10px 10px 10px;
-    width: 500px;
+    width: 450px;
     border-radius: 30px 30px 30px 30px;
     -webkit-border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
@@ -176,7 +193,10 @@ input {
 
 .ligne-une {
     display: flex;
+    /* flex-direction: row; */
     flex-wrap: wrap;
+    /* width: 900px; */
+    /* margin: auto; */
 }
 
 .ligne-botton {
@@ -198,9 +218,18 @@ input {
     -o-border-radius: 30px 30px 0px 0px;
 }
 
+.card-populaires {
+    width: 370px;
+    display: flex;
+    padding: 5px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 30px 30px 30px 30px;
+}
+
 .card-populaires img {
     border-radius: 30px 30px 0px 0px;
-    width: 250px;
+    width: 200px;
     height: 170px;
     border-radius: 30px 0px 0px 30px;
     -webkit-border-radius: 30px 0px 0px 30px;
@@ -210,23 +239,16 @@ input {
 }
 
 .card-hebergements {
-    padding: 10px;
+    width: 250px;
+    padding: 5px;
     margin: 15px;
-    height: 230px;
+    height: 220px;
     background-color: white;
     border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
     -ms-border-radius: 30px 30px 30px 30px;
     -o-border-radius: 30px 30px 30px 30px;
     -webkit-border-radius: 30px 30px 30px 30px;
-}
-
-.card-populaires {
-    display: flex;
-    padding: 10px;
-    margin: 15px;
-    background-color: white;
-    border-radius: 30px 30px 30px 30px;
 }
 
 .divleft {
@@ -274,8 +296,21 @@ input {
     padding: 10
 }
 
-body {
+
+/* body {
     font-family: 'ralewayregular';
+} */
+
+body {
+    border: 2px solid red;
+    /* background-color: #F2F2F2; */
+    font-family: "Raleway", "Sans serif";
+    margin: 0;
+    /* border: 20px solid #F2F2F2;
+    width: 100%; */
+    /* Impossible de réduire la taille de 10px */
+    margin: 0px 5px;
+    /* Marges de 5px de la taille de la bordure de chaque cotés du bloc */
 }
 
 @font-face {
@@ -371,10 +406,6 @@ body {
     margin: 10px 10px 10px 10px;
     width: auto;
     border-radius: 30px 30px 30px 30px;
-    -webkit-border-radius: 30px 30px 30px 30px;
-    -moz-border-radius: 30px 30px 30px 30px;
-    -ms-border-radius: 30px 30px 30px 30px;
-    -o-border-radius: 30px 30px 30px 30px;
 }
 
 .card_activity {
@@ -386,58 +417,110 @@ body {
 }
 
 .first,
-.third,
-.card_first {
+.third {
+    /*border: 2px solid red;
+    */
     display: flex;
     flex-direction: column;
-    /* align-items: stretch; */
-    width: 350px;
-    height: 600px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #F2F2F2;
+    width: 320px;
+    height: 480px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px 30px;
+    -o-border-radius: 30px 30px 30px 30px;
+}
+
+.fourth_one,
+.fourth_two {
+    width: 320px;
+    height: 42%;
+    background-color: #F2F2F2;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px 30px;
+    -o-border-radius: 30px 30px 30px 30px;
 }
 
 .fourth_one img,
 .fourth_two img {
-    width: 391px;
-    height: auto;
+    width: 100%;
+    height: 68%;
+    border-radius: 30px 30px 0px 0px;
+    -webkit-border-radius: 30px 30px 0px 0px;
+    -moz-border-radius: 30px 30px 0px 0px;
+    -ms-border-radius: 30px 30px 0px 0px;
+    -o-border-radius: 30px 30px 0px 0px;
 }
 
-.second_two,
 .second_one {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 450px;
+    width: 320px;
+    height: 280px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #F2F2F2;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px 30px;
+    -o-border-radius: 30px 30px 30px 30px;
+}
+
+.second_two {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 150px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #F2F2F2;
 }
 
 .third img,
 .first img {
-    min-height: 100%;
+    min-height: 85%;
     max-width: 100%;
     object-fit: cover;
+    border-radius: 30px 30px 0px 0px;
+    -webkit-border-radius: 30px 30px 0px 0px;
+    -moz-border-radius: 30px 30px 0px 0px;
+    -ms-border-radius: 30px 30px 0px 0px;
+    -o-border-radius: 30px 30px 0px 0px;
 }
 
 .second_one img {
     height: 90%;
     width: 100%;
     object-fit: cover;
+    border-radius: 30px 30px 0px 0px;
+    -webkit-border-radius: 30px 30px 0px 0px;
+    -moz-border-radius: 30px 30px 0px 0px;
+    -ms-border-radius: 30px 30px 0px 0px;
+    -o-border-radius: 30px 30px 0px 0px;
 }
 
 .second_two img {
     height: 33.5%;
     width: 100%;
     object-fit: cover;
+    border-radius: 30px 30px 0px 0px;
+    -webkit-border-radius: 30px 30px 0px 0px;
+    -moz-border-radius: 30px 30px 0px 0px;
+    -ms-border-radius: 30px 30px 0px 0px;
+    -o-border-radius: 30px 30px 0px 0px;
 }
 
 .footer {
     background-color: #F2F2F2;
-    width: 100%;
+    width: 2000px;
 }
 
 .footerClass {
     display: flex;
     max-width: 100%;
     width: 1440px;
-    margin: auto;
+    margin: 0;
     padding: 0 2rem;
     box-sizing: border-box;
 }
