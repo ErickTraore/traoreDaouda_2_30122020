@@ -1,5 +1,16 @@
-#nav {
+.aheadLogo {
     display: flex;
+}
+
+#ahead {
+    display: flex;
+}
+
+.aheadNav {
+    display: flex;
+    justify-content: flex-end;
+    width: 1550px;
+    height: auto;
 }
 
 #elt-1 {
@@ -159,6 +170,7 @@ header {
 .partie_une {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1550px;
 }
 
 .box_un {
@@ -181,13 +193,13 @@ header {
 
 .ligne-une {
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    align-items: center;
+    /* flex-direction: row; */
+    justify-content: center;
     /* height: 600px; */
-    margin: auto;
-    justify-content: space-evenly;
-    align-content: space-aroundalign-items: baseline;
+    /* margin: auto; */
+    /* justify-content: space-evenly; */
     /* justify-content: space-around; */
     /* justify-content: flex-start; */
 }
@@ -204,7 +216,7 @@ header {
 .card-hebergements img {
     border-radius: 30px 30px 0px 0px;
     width: 250px;
-    height: 140px;
+    height: 130px;
     -webkit-border-radius: 30px 30px 0px 0px;
     -moz-border-radius: 30px 30px 0px 0px;
     -ms-border-radius: 30px 30px 0px 0px;
@@ -228,10 +240,11 @@ header {
 }
 
 .card-hebergements {
+    /* display: flex; */
     width: 250px;
-    height: 240px;
+    height: 225px;
     padding: 5px;
-    margin: 30px;
+    margin: 20px;
     background-color: white;
     border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
@@ -241,9 +254,11 @@ header {
 }
 
 .divleft {
-    display: inline-block;
-    flex-direction: row;
-    /* justify-content: flex-start; */
+    /* margin: -10px 0px 0px 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 140px;
 }
 
 .divright {
@@ -267,6 +282,17 @@ header {
     justify-content: space-between;
 }
 
+.divleftTop {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divleftTop .p2left {
+    padding: 0px 0px 5px 0px;
+}
+
 .rightDivTop .p2 {
     padding: 0px 0px 10px 0px;
 }
@@ -284,15 +310,30 @@ header {
 
 .p2 {
     line-height: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.p2Hebergement {
+    line-height: auto;
     font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0px 0px 20px;
+}
+
+.p2left {
+    line-height: auto;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .p2bis {
-    margin-left: 50px;
-    line-height: auto;
-    font-size: 22px;
-    font-weight: bold;
+    margin-top: -12px;
+    margin-left: 20px;
+    /* margin: -15px 0px 0px 20px; */
+    /* line-height: 20px; */
+    font-size: 15px;
+    /* font-weight: bold; */
 }
 
 p span {
@@ -310,6 +351,12 @@ p span {
 }
 
 .p3 {
+    /* align-self: flex-end; */
+    margin: 0px 0px 20px 20px;
+    /* padding-bottom: 0 */
+}
+
+.p3-left {
     /* align-self: flex-end; */
     margin: 0px 0px 20px 20px;
     /* padding-bottom: 0 */
@@ -446,7 +493,7 @@ body {
 }
 
 .card_activity {
-    width: 100%;
+    max-width: 1550px;
     height: 100%;
     /* border: 2px solid yellow; */
     display: flex;
@@ -583,14 +630,17 @@ body {
 }
 
 .footer {
+    max-width: 1550px;
     background-color: #F2F2F2;
-    width: 2000px;
+    width: auto;
 }
 
 .footerClass {
+    border: 1px solid red;
     display: flex;
-    max-width: 100%;
-    width: 1440px;
+    flex-wrap: wrap;
+    /* max-width: 1000px; */
+    width: 1200px;
     margin: 0;
     padding: 0 2rem;
     box-sizing: border-box;
@@ -640,3 +690,5 @@ body {
 .awesomeInfoText {
     margin: 0;
 }
+
+@media screen and (max-width:1024px) {}
