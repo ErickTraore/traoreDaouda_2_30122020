@@ -1,4 +1,6 @@
-header {
+/* header */
+
+.header {
     max-width: 1550px;
     margin: 0;
     padding: 0 2rem;
@@ -7,17 +9,30 @@ header {
 
 #ahead {
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
-.aheadLogo {
+
+/* .aheadLogo {
+    border: 3px solid blue;
+    margin: 0px 300px 0px 0px;
+} */
+
+.aheadNaving {
     display: flex;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 1250px;
+    height: auto;
 }
 
 .aheadNav {
     display: flex;
-    justify-content: flex-end;
-    width: 1550px;
-    height: auto;
+}
+
+.aheadSign {
+    display: flex;
 }
 
 #elt-1 {
@@ -27,6 +42,7 @@ header {
 
 #elt {
     margin: 0px 50px 0px 5px;
+    color: black;
 }
 
 #elt-0 {
@@ -42,9 +58,9 @@ header {
     color: #0065FC;
 }
 
-#card-1 {
+.card-1 {
     margin: 0px 0px 0px 5px;
-    width: 410px;
+    width: auto;
     height: 55px;
     display: table;
     text-align: center;
@@ -167,6 +183,7 @@ input {
 
 .montableau {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -246,6 +263,8 @@ input {
     margin: 30px;
     background-color: white;
     border-radius: 30px 30px 30px 30px;
+    text-decoration: none;
+    color: black;
 }
 
 .card-populaires img {
@@ -255,7 +274,7 @@ input {
 }
 
 .card-hebergements {
-    border: 3px solid red;
+    color: black;
     width: 250px;
     height: 225px;
     padding: 5px;
@@ -266,7 +285,8 @@ input {
     -ms-border-radius: 30px 30px 30px 30px;
     -o-border-radius: 30px 30px 30px 30px;
     -webkit-border-radius: 30px 30px 30px 30px;
-    overflow: auto;
+    overflow: hidden;
+    text-decoration: none;
 }
 
 .divleft {
@@ -431,36 +451,32 @@ p span {
     padding: 10
 }
 
+border-left: 50px solid #F2F2F2;
+border-right: 50px solid #F2F2F2;
 
-/* body {
-    font-family: 'ralewayregular';
-} */
+/* background-color: #F2F2F2; */
 
-body {
-    /* display: flex;
-                flex-wrap: wrap;
-                width: 100%;
-                /* width: 1550px; */
-    /* height: auto; */
-    border-left: 50px solid #F2F2F2;
-    border-right: 50px solid #F2F2F2;
-    /* background-color: #F2F2F2; */
-    font-family: "ralewayregular", "Sans serif";
-    margin: 0;
-    /* Impossible de réduire la taille de 10px */
-    margin: 0px 5px;
-    /* Marges de 5px de la taille de la bordure de chaque cotés du bloc */
+font-family: "ralewayregular",
+"Sans serif";
+margin: 0;
+
+/* Impossible de réduire la taille de 10px */
+
+margin: 0px 5px;
+
+/* Marges de 5px de la taille de la bordure de chaque cotés du bloc */
+
+
 }
-
 @font-face {
     font-family: 'ralewayregular';
     src: url('font/raleway-regular-webfont.woff2') format('woff2'), url('font/raleway-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 .card-bottom {
     /* border: 1px solid red; */
+    
     padding: 10px;
     margin: 15px;
     height: 450px;
@@ -472,7 +488,6 @@ body {
     -o-border-radius: 30px 30px 30px 30px;
     -webkit-border-radius: 30px 30px 30px 30px;
 }
-
 .card-bottom-un {
     padding: 10px;
     margin: 15px;
@@ -485,7 +500,6 @@ body {
     -o-border-radius: 30px 30px 30px 30px;
     -webkit-border-radius: 30px 30px 30px 30px;
 }
-
 .card-bottom-deux {
     padding: 10px;
     margin: 15px;
@@ -498,7 +512,6 @@ body {
     -o-border-radius: 30px 30px 30px 30px;
     -webkit-border-radius: 30px 30px 30px 30px;
 }
-
 .card-bottom img {
     border-radius: 30px 30px 0px 0px;
     width: 300px;
@@ -508,7 +521,6 @@ body {
     -ms-border-radius: 30px 30px 0px 0px;
     -o-border-radius: 30px 30px 0px 0px;
 }
-
 .card-bottom-un img {
     border-radius: 30px 30px 0px 0px;
     width: 300px;
@@ -518,7 +530,6 @@ body {
     -ms-border-radius: 30px 30px 0px 0px;
     -o-border-radius: 30px 30px 0px 0px;
 }
-
 .imgdeux img {
     border-radius: 30px 30px 0px 0px;
     width: 300px;
@@ -528,7 +539,6 @@ body {
     -ms-border-radius: 30px 30px 0px 0px;
     -o-border-radius: 30px 30px 0px 0px;
 }
-
 .card-bottom-deux img {
     border-radius: 30px 30px 0px 0px;
     width: 300px;
@@ -538,7 +548,6 @@ body {
     -ms-border-radius: 30px 30px 0px 0px;
     -o-border-radius: 30px 30px 0px 0px;
 }
-
 .box_bottom {
     padding: 10px;
     background-color: #F2F2F2;
@@ -546,7 +555,6 @@ body {
     width: auto;
     border-radius: 30px 30px 30px 30px;
 }
-
 .card_activity {
     max-width: 1550px;
     height: auto;
@@ -556,18 +564,17 @@ body {
     align-items: center;
     margin-bottom: 30px;
 }
-
 .card_first,
 .card_third {
     width: 320px;
     height: 480px;
     /* border: 2px solid yellow; */
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-
 .card_second {
     width: 320px;
     height: 480px;
@@ -575,13 +582,12 @@ body {
     flex-wrap: wrap;
     /* justify-content: space-between; */
     /* align-items: flex-end; */
+    
     place-content: space-between stretch;
 }
-
 .first,
 .third {
-    /*border: 2px solid red;
-    */
+    color: black;
     display: flex;
     flex-direction: column;
     border-radius: 30px 30px 30px 30px;
@@ -592,9 +598,10 @@ body {
     -ms-border-radius: 30px 30px 30px 30px;
     -o-border-radius: 30px 30px 30px 30px;
     /* box-shadow: 0 0 0 1px #555; */
+    
     box-shadow: 1px 1px 12px #F2F2F2;
+    text-decoration: none;
 }
-
 .elmt_3-0 {
     display: flex;
     justify-content: space-between;
@@ -607,8 +614,8 @@ body {
     -ms-border-radius: 20px 20px;
     -o-border-radius: 20px 20px;
 }
-
 .second_one {
+    color: black;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -616,9 +623,10 @@ body {
     box-shadow: 1px 1px 12px #F2F2F2;
     border-radius: 30px 30px 30px 30px;
     padding: 0px -5px 0px 0px;
+    text-decoration: none;
 }
-
 .second_two {
+    color: black;
     display: flex;
     flex-direction: column;
     align-content: flex-end;
@@ -630,8 +638,8 @@ body {
     -moz-border-radius: 30px 30px 30px 30px;
     -ms-border-radius: 30px 30px 30px 30px;
     -o-border-radius: 30px 30px 30px 30px;
+    text-decoration: none;
 }
-
 .second_one img {
     height: 70%;
     width: 100%;
@@ -642,7 +650,6 @@ body {
     -ms-border-radius: 30px 30px 0px 0px;
     -o-border-radius: 30px 30px 0px 0px;
 }
-
 .second_two img {
     height: 62%;
     width: 100%;
@@ -653,7 +660,6 @@ body {
     -ms-border-radius: 30px 30px 0px 0px;
     -o-border-radius: 30px 30px 0px 0px;
 }
-
 .third img,
 .first img {
     min-height: 85%;
@@ -665,7 +671,6 @@ body {
     -ms-border-radius: 30px 30px 0px 0px;
     -o-border-radius: 30px 30px 0px 0px;
 }
-
 .card_fourth {
     width: 320px;
     height: 480px;
@@ -675,22 +680,6 @@ body {
     align-items: flex-end;
     place-content: space-between stretch;
 }
-
-
-/* .fourth_one {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-    width: 100%;
-    height: 40%;
-    box-shadow: 1px 1px 12px red;
-    border-radius: 30px 30px 30px 30px;
-    /*   padding: 0px -5px 0px 0px;
-    */
-
-
-/* } */
-
 .fourth_one,
 .fourth_two {
     display: flex;
@@ -700,8 +689,8 @@ body {
     height: 45%;
     box-shadow: 1px 1px 12px #F2F2F2;
     border-radius: 30px 30px 30px 30px;
+    text-decoration: none;
 }
-
 .fourth_one img,
 .fourth_two img {
     width: 99%;
@@ -712,13 +701,11 @@ body {
     -ms-border-radius: 30px 30px 0px 0px;
     -o-border-radius: 30px 30px 0px 0px;
 }
-
 .awesomeInfo {
     display: flex;
     align-items: center;
     margin: 1rem 0 2rem 0;
 }
-
 .awesomeInfo-i {
     height: 2rem;
     width: 2rem;
@@ -731,22 +718,18 @@ body {
     justify-content: center;
     margin-right: 1rem;
 }
-
 .awesomeInfo-i-Image {
     color: #0065FC;
 }
-
 .awesomeInfoText {
     margin: 0;
 }
-
 .footer {
     background-color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-
 .footer_assistance,
 .footer_hebergement,
 .footer_propos {
@@ -755,9 +738,60 @@ body {
     padding: 10px 30px;
     margin: 0px 250px 0px 0px;
 }
-
 .test {
     border: 3px solid blue;
 }
 
-@media screen and (max-width:1024px) {}
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 1280px) {}
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px) {}
+
+/* Sur les téléviseurs */
+@media tv {}
+
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (orientation: portrait) {
+    #elt-0 {
+        width: 150px;
+        text-align: center;
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        margin: 0px 50px 0px 5px;
+        color: #0065FC;
+    }
+    
+    .aheadLogo {
+        order: 0;
+    }
+    
+    .aheadNaving {
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* flex-direction: row-reverse; */
+        justify-content: flex-start;
+        width: 1250px;
+        height: auto;
+        order: 1;
+    }
+    
+    .aheadSign {
+        order: 0;
+        margin: 0px 0px 0px 100px;
+    }
+    
+    .aheadNav {
+        /* border: 3px solid red; */
+        order: 1;
+        margin: 0px 0px 0px -100px;
+    }
+    
+    .box_un {
+        order: 1;
+    }
+    
+    .box_deux {
+        order: 0;
+    }
+}
