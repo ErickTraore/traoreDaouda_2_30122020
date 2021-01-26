@@ -1,797 +1,842 @@
-/* header */
-
-.header {
-    max-width: 1550px;
-    margin: 0;
-    padding: 0 2rem;
-    box-sizing: border-box;
-}
-
-#ahead {
-    display: flex;
-    /* flex-wrap: wrap; */
-}
-
-
-/* .aheadLogo {
+                                                                                                                        /* header */
+                                                                                                                    
+                                                                                                                    header {
+                                                                                                                        max-width: 1550px;
+                                                                                                                        margin: 0;
+                                                                                                                        padding: 0 2rem;
+                                                                                                                        box-sizing: border-box;
+                                                                                                                        /* background-color: rgb(225, 235, 168); */
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #ahead {
+                                                                                                                        display: flex;
+                                                                                                                        /* flex-wrap: wrap; */
+                                                                                                                    }
+                                                                                                                    /* .aheadLogo {
     border: 3px solid blue;
     margin: 0px 300px 0px 0px;
 } */
-
-.aheadNaving {
-    display: flex;
-    /* flex-direction: row-reverse; */
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    width: 1250px;
-    height: auto;
-}
-
-.aheadNav {
-    display: flex;
-}
-
-.aheadSign {
-    display: flex;
-}
-
-#elt-1 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#elt {
-    margin: 0px 50px 0px 5px;
-    color: black;
-}
-
-#elt-0 {
-    width: 150px;
-    text-align: center;
-    border-top: 2px solid #0065FC;
-    margin: 0px 50px 0px 5px;
-    color: #0065FC;
-}
-
-#elt-01 {
-    margin: 0px 50px 0px 5px;
-    color: #0065FC;
-}
-
-.card-1 {
-    margin: 0px 0px 0px 5px;
-    width: auto;
-    height: 55px;
-    display: table;
-    text-align: center;
-    display: flex;
-}
-
-#elt-a {
-    background-color: #F2F2F2;
-    border-radius: 20px 0px 0px 20px;
-    padding: 0px 20px 0px 10px;
-}
-
-#elt-b {
-    padding: 0px 0px 0px 20px;
-    border: 3px solid#F2F2F2;
-}
-
-#elt-b {
-    display: flex;
-    width: 250px;
-}
-
-#elt-c {
-    padding: 0px 10px 0px 10px;
-    border-radius: 0px 20px 20px 0px;
-    background-color: #0065FC;
-    color: white;
-}
-
-input {
-    width: 150px;
-    margin-left: 5px;
-    cursor: pointer;
-    border: none;
-}
-
-.container {
-    /* border: 2px solid red; */
-    max-width: 1550px;
-    margin: 0;
-    padding: 0 2rem;
-    box-sizing: border-box;
-}
-
-.container:after {
-    overflow: hidden;
-    content: "";
-    /* Important, sinon l'élément n'est pas généré. */
-    display: table;
-    clear: both;
-}
-
-#card-2 {
-    border: 2px solid red;
-    margin: 30px 30px 0px 5px;
-    width: auto;
-    height: 38px;
-    display: table;
-    text-align: center;
-    border-radius: 30px 30px 30px 30px;
-    display: flex;
-    justify-content: auto;
-    border: 3px solid #F2F2F2;
-}
-
-#card-3 {
-    margin: 30px 10px 0px 0px;
-    text-align: left;
-    padding: 0px 0.5em 0 0.5em;
-    margin: right;
-}
-
-#card-4 {
-    display: flex;
-    margin: 10px 10px 0px -5px;
-}
-
-#moncercle {
-    margin: -3px;
-    background: #DEEBFF;
-    justify-content: center;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: table;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
-#moncercle-i {
-    justify-content: center;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: table;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
-#moncercle span {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-#logo_filter {
-    color: #0065FC;
-}
-
-#logo_filter_i {
-    color: black;
-}
-
-#logo_filter_bis {
-    color: #F2F2F2;
-}
-
-.montableau {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-#elt-e {
-    padding: 0px 1em 0 2em;
-    border-radius: 0px 30px 30px 0px;
-    height: 30px;
-    display: table;
-    -webkit-border-radius: 0px 30px 30px 0px;
-    -moz-border-radius: 0px 30px 30px 0px;
-    -ms-border-radius: 0px 30px 30px 0px;
-    -o-border-radius: 0px 30px 30px 0px;
-}
-
-.partie_une {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1550px;
-}
-
-.box_un {
-    background-color: #F2F2F2;
-    margin: 50px 10px 10px 10px;
-    width: 960px;
-    border-radius: 30px 30px 30px 30px;
-}
-
-.box_deux {
-    background-color: #F2F2F2;
-    margin: 50px 10px 10px 10px;
-    width: 460px;
-    border-radius: 30px 30px 30px 30px;
-    -webkit-border-radius: 30px 30px 30px 30px;
-    -moz-border-radius: 30px 30px 30px 30px;
-    -ms-border-radius: 30px 30px 30px 30px;
-    -o-border-radius: 30px 30px 30px 30px;
-}
-
-.ligne-une {
-    /* overflow: hidden; */
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    /* flex-direction: row; */
-    justify-content: center;
-    /* height: 600px; */
-    /* margin: auto; */
-    /* justify-content: space-evenly; */
-    /* justify-content: space-around; */
-    /* justify-content: flex-start; */
-}
-
-.ligne-botton {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.ligne-deux {
-    background-color: #F2F2F2;
-}
-
-.card-hebergements img {
-    border-radius: 30px 30px 0px 0px;
-    width: 250px;
-    height: 130px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -ms-border-radius: 30px 30px 0px 0px;
-    -o-border-radius: 30px 30px 0px 0px;
-}
-
-.card-populaires {
-    max-width: 380px;
-    max-height: 160px;
-    display: flex;
-    padding: 5px;
-    margin: 30px;
-    background-color: white;
-    border-radius: 30px 30px 30px 30px;
-    text-decoration: none;
-    color: black;
-}
-
-.card-populaires img {
-    width: 145px;
-    height: 160px;
-    border-radius: 30px 0px 0px 30px;
-}
-
-.card-hebergements {
-    color: black;
-    width: 250px;
-    height: 225px;
-    padding: 5px;
-    margin: 20px;
-    background-color: white;
-    border-radius: 30px 30px 30px 30px;
-    -moz-border-radius: 30px 30px 30px 30px;
-    -ms-border-radius: 30px 30px 30px 30px;
-    -o-border-radius: 30px 30px 30px 30px;
-    -webkit-border-radius: 30px 30px 30px 30px;
-    overflow: hidden;
-    text-decoration: none;
-}
-
-.divleft {
-    /* margin: -10px 0px 0px 10px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 140px;
-}
-
-.divright {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 150px;
-}
-
-.rightDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 170px;
-}
-
-.rightDivTop {
-    margin: 20px 20px 20px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.divleftTop {
-    margin: 20px 20px 20px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.divleftTop .p2left {
-    padding: 0px 0px 5px 0px;
-}
-
-.rightDivTop .p2 {
-    padding: 0px 0px 10px 0px;
-}
-
-.p0 {
-    line-height: 4px;
-    font-size: 15px;
-    margin: 15px 20px 10px 20px;
-}
-
-.p0Filtre {
-    line-height: 4px;
-    font-size: 1.2em;
-    font-weight: bolder;
-    /* margin: 15px 20px 10px 20px; */
-}
-
-.p0Nav {
-    line-height: 4px;
-    font-size: 1.2em;
-    font-weight: bolder;
-    margin: 15px 20px 10px 20px;
-}
-
-.p1 {
-    line-height: 4px;
-    font-size: 15px;
-}
-
- ::placeholder {
-    color: black;
-    line-height: auto;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.p2 {
-    line-height: auto;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.p2Activity {
-    line-height: auto;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 50px;
-}
-
-.p2Hebergement {
-    line-height: auto;
-    font-size: 22px;
-    font-weight: bold;
-    margin: 15px 0px 0px 50px;
-}
-
-.p2left {
-    line-height: auto;
-    font-size: 19px;
-    font-weight: bold;
-}
-
-.p2marseille {
-    line-height: auto;
-    font-size: 19px;
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-.p2bis {
-    margin-top: -12px;
-    margin-left: 20px;
-    /* margin: -15px 0px 0px 20px; */
-    /* line-height: 20px; */
-    font-size: 15px;
-    /* font-weight: bold; */
-}
-
-p span {
-    margin-left: 50px;
-    font-size: 22px;
-    font-weight: bold;
-    margin: 0px 0px 0px 130px;
-}
-
-#elt-a span {
-    margin-left: 50px;
-    font-size: 22px;
-    font-weight: bold;
-    margin: 0px 0px 0px 20px;
-}
-
-.p3 {
-    /* align-self: flex-end; */
-    margin: 0px 0px 20px 20px;
-    /* padding-bottom: 0 */
-}
-
-.p3-left {
-    /* align-self: flex-end; */
-    margin: 0px 0px 20px 20px;
-    /* padding-bottom: 0 */
-}
-
-.p3bis {
-    line-height: auto;
-    font-size: 23px;
-    font-weight: bold;
-    margin: 40px 40px 0px 30px;
-    /* padding-bottom: 0 */
-}
-
-.p4 {
-    margin: 10px 0px 0px 10px;
-    padding-bottom: 0
-}
-
-.p5 {
-    margin: 15px 15px 15px 15px;
-    padding: 10
-}
-
-border-left: 50px solid #F2F2F2;
-border-right: 50px solid #F2F2F2;
-
-/* background-color: #F2F2F2; */
-
-font-family: "ralewayregular",
-"Sans serif";
-margin: 0;
-
-/* Impossible de réduire la taille de 10px */
-
-margin: 0px 5px;
-
-/* Marges de 5px de la taille de la bordure de chaque cotés du bloc */
-
-
-}
-@font-face {
-    font-family: 'ralewayregular';
-    src: url('font/raleway-regular-webfont.woff2') format('woff2'), url('font/raleway-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-.card-bottom {
-    /* border: 1px solid red; */
-    
-    padding: 10px;
-    margin: 15px;
-    height: 450px;
-    width: 250;
-    background-color: white;
-    border-radius: 30px 30px 30px 30px;
-    -moz-border-radius: 30px 30px 30px 30px;
-    -ms-border-radius: 30px 30px 30px 30px;
-    -o-border-radius: 30px 30px 30px 30px;
-    -webkit-border-radius: 30px 30px 30px 30px;
-}
-.card-bottom-un {
-    padding: 10px;
-    margin: 15px;
-    height: 200px;
-    width: 250px;
-    background-color: white;
-    border-radius: 30px 30px 30px 30px;
-    -moz-border-radius: 30px 30px 30px 30px;
-    -ms-border-radius: 30px 30px 30px 30px;
-    -o-border-radius: 30px 30px 30px 30px;
-    -webkit-border-radius: 30px 30px 30px 30px;
-}
-.card-bottom-deux {
-    padding: 10px;
-    margin: 15px;
-    height: 180px;
-    width: 250px;
-    background-color: white;
-    border-radius: 30px 30px 30px 30px;
-    -moz-border-radius: 30px 30px 30px 30px;
-    -ms-border-radius: 30px 30px 30px 30px;
-    -o-border-radius: 30px 30px 30px 30px;
-    -webkit-border-radius: 30px 30px 30px 30px;
-}
-.card-bottom img {
-    border-radius: 30px 30px 0px 0px;
-    width: 300px;
-    height: 400px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -ms-border-radius: 30px 30px 0px 0px;
-    -o-border-radius: 30px 30px 0px 0px;
-}
-.card-bottom-un img {
-    border-radius: 30px 30px 0px 0px;
-    width: 300px;
-    height: 220px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -ms-border-radius: 30px 30px 0px 0px;
-    -o-border-radius: 30px 30px 0px 0px;
-}
-.imgdeux img {
-    border-radius: 30px 30px 0px 0px;
-    width: 300px;
-    height: 150px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -ms-border-radius: 30px 30px 0px 0px;
-    -o-border-radius: 30px 30px 0px 0px;
-}
-.card-bottom-deux img {
-    border-radius: 30px 30px 0px 0px;
-    width: 300px;
-    height: 180px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -ms-border-radius: 30px 30px 0px 0px;
-    -o-border-radius: 30px 30px 0px 0px;
-}
-.box_bottom {
-    padding: 10px;
-    background-color: #F2F2F2;
-    margin: 10px 10px 10px 10px;
-    width: auto;
-    border-radius: 30px 30px 30px 30px;
-}
-.card_activity {
-    max-width: 1550px;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
-}
-.card_first,
-.card_third {
-    width: 320px;
-    height: 480px;
-    /* border: 2px solid yellow; */
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-.card_second {
-    width: 320px;
-    height: 480px;
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
-    /* align-items: flex-end; */
-    
-    place-content: space-between stretch;
-}
-.first,
-.third {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    border-radius: 30px 30px 30px 30px;
-    width: 100%;
-    height: 100%;
-    -webkit-border-radius: 30px 30px 30px 30px;
-    -moz-border-radius: 30px 30px 30px 30px;
-    -ms-border-radius: 30px 30px 30px 30px;
-    -o-border-radius: 30px 30px 30px 30px;
-    /* box-shadow: 0 0 0 1px #555; */
-    
-    box-shadow: 1px 1px 12px #F2F2F2;
-    text-decoration: none;
-}
-.elmt_3-0 {
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 1px 1px 12px #F2F2F2;
-    width: 96%;
-    height: 90%;
-    border-radius: 20px 20px;
-    -webkit-border-radius: 20px 20px;
-    -moz-border-radius: 20px 20px;
-    -ms-border-radius: 20px 20px;
-    -o-border-radius: 20px 20px;
-}
-.second_one {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 50%;
-    box-shadow: 1px 1px 12px #F2F2F2;
-    border-radius: 30px 30px 30px 30px;
-    padding: 0px -5px 0px 0px;
-    text-decoration: none;
-}
-.second_two {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-    width: 100%;
-    height: 40%;
-    box-shadow: 1px 1px 12px #F2F2F2;
-    border-radius: 30px 30px 30px 30px;
-    -webkit-border-radius: 30px 30px 30px 30px;
-    -moz-border-radius: 30px 30px 30px 30px;
-    -ms-border-radius: 30px 30px 30px 30px;
-    -o-border-radius: 30px 30px 30px 30px;
-    text-decoration: none;
-}
-.second_one img {
-    height: 70%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 30px 30px 0px 0px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -ms-border-radius: 30px 30px 0px 0px;
-    -o-border-radius: 30px 30px 0px 0px;
-}
-.second_two img {
-    height: 62%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 30px 30px 0px 0px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -ms-border-radius: 30px 30px 0px 0px;
-    -o-border-radius: 30px 30px 0px 0px;
-}
-.third img,
-.first img {
-    min-height: 85%;
-    max-width: 100%;
-    object-fit: cover;
-    border-radius: 30px 30px 0px 0px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -ms-border-radius: 30px 30px 0px 0px;
-    -o-border-radius: 30px 30px 0px 0px;
-}
-.card_fourth {
-    width: 320px;
-    height: 480px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
-    place-content: space-between stretch;
-}
-.fourth_one,
-.fourth_two {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-    width: 100%;
-    height: 45%;
-    box-shadow: 1px 1px 12px #F2F2F2;
-    border-radius: 30px 30px 30px 30px;
-    text-decoration: none;
-}
-.fourth_one img,
-.fourth_two img {
-    width: 99%;
-    height: 70%;
-    border-radius: 30px 30px 0px 0px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -ms-border-radius: 30px 30px 0px 0px;
-    -o-border-radius: 30px 30px 0px 0px;
-}
-.awesomeInfo {
-    display: flex;
-    align-items: center;
-    margin: 1rem 0 2rem 0;
-}
-.awesomeInfo-i {
-    height: 2rem;
-    width: 2rem;
-    min-height: 2rem;
-    min-width: 2rem;
-    border: solid 1px #F2F2F2;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1rem;
-}
-.awesomeInfo-i-Image {
-    color: #0065FC;
-}
-.awesomeInfoText {
-    margin: 0;
-}
-.footer {
-    background-color: #F2F2F2;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-.footer_assistance,
-.footer_hebergement,
-.footer_propos {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 30px;
-    margin: 0px 250px 0px 0px;
-}
-.test {
-    border: 3px solid blue;
-}
-
-/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
-@media screen and (max-width: 1280px) {}
-
-/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
-@media all and (min-width: 1024px) and (max-width: 1280px) {}
-
-/* Sur les téléviseurs */
-@media tv {}
-
-/* Sur tous types d'écrans orientés verticalement */
-@media all and (orientation: portrait) {
-    #elt-0 {
-        width: 150px;
-        text-align: center;
-        border-top: none;
-        border-bottom: 2px solid #0065FC;
-        margin: 0px 50px 0px 5px;
-        color: #0065FC;
-    }
-    
-    .aheadLogo {
-        order: 0;
-    }
-    
-    .aheadNaving {
-        display: flex;
-        /* flex-wrap: wrap; */
-        /* flex-direction: row-reverse; */
-        justify-content: flex-start;
-        width: 1250px;
-        height: auto;
-        order: 1;
-    }
-    
-    .aheadSign {
-        order: 0;
-        margin: 0px 0px 0px 100px;
-    }
-    
-    .aheadNav {
-        /* border: 3px solid red; */
-        order: 1;
-        margin: 0px 0px 0px -100px;
-    }
-    
-    .box_un {
-        order: 1;
-    }
-    
-    .box_deux {
-        order: 0;
-    }
-}
+                                                                                                                    
+                                                                                                                    .aheadNaving {
+                                                                                                                        display: flex;
+                                                                                                                        /* flex-direction: row-reverse; */
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                        justify-content: flex-end;
+                                                                                                                        width: 1250px;
+                                                                                                                        height: auto;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .aheadNav {
+                                                                                                                        display: flex;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .aheadSign {
+                                                                                                                        display: flex;
+                                                                                                                        margin: 0px 10px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #elt-1 {
+                                                                                                                        display: flex;
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #elt {
+                                                                                                                        margin: 0px 50px 0px 5px;
+                                                                                                                        color: black;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #elt-0 {
+                                                                                                                        width: 150px;
+                                                                                                                        text-align: center;
+                                                                                                                        border-top: 2px solid #0065FC;
+                                                                                                                        margin: 0px 50px 0px 5px;
+                                                                                                                        color: #0065FC;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #elt-01 {
+                                                                                                                        margin: 0px 50px 0px 50px;
+                                                                                                                        color: #0065FC;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card-1 {
+                                                                                                                        margin: 0px 0px 0px 5px;
+                                                                                                                        width: auto;
+                                                                                                                        height: 55px;
+                                                                                                                        display: table;
+                                                                                                                        text-align: center;
+                                                                                                                        display: flex;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #elt-a {
+                                                                                                                        background-color: #F2F2F2;
+                                                                                                                        border-radius: 20px 0px 0px 20px;
+                                                                                                                        padding: 0px 20px 0px 10px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #elt-b {
+                                                                                                                        padding: 0px 0px 0px 20px;
+                                                                                                                        border: 3px solid#F2F2F2;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #elt-b {
+                                                                                                                        display: flex;
+                                                                                                                        width: 250px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #elt-c {
+                                                                                                                        padding: 0px 10px 0px 10px;
+                                                                                                                        border-radius: 0px 20px 20px 0px;
+                                                                                                                        background-color: #0065FC;
+                                                                                                                        color: white;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    input {
+                                                                                                                        width: 150px;
+                                                                                                                        margin-left: 5px;
+                                                                                                                        cursor: pointer;
+                                                                                                                        border: none;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .container {
+                                                                                                                        /* border: 2px solid red; */
+                                                                                                                        max-width: 1550px;
+                                                                                                                        margin: 0;
+                                                                                                                        padding: 0 2rem;
+                                                                                                                        box-sizing: border-box;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .container:after {
+                                                                                                                        overflow: hidden;
+                                                                                                                        content: "";
+                                                                                                                        /* Important, sinon l'élément n'est pas généré. */
+                                                                                                                        display: table;
+                                                                                                                        clear: both;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #card-2 {
+                                                                                                                        border: 2px solid red;
+                                                                                                                        margin: 30px 30px 0px 5px;
+                                                                                                                        width: auto;
+                                                                                                                        height: 38px;
+                                                                                                                        display: table;
+                                                                                                                        text-align: center;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                        display: flex;
+                                                                                                                        justify-content: auto;
+                                                                                                                        border: 3px solid #F2F2F2;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #card-3 {
+                                                                                                                        margin: 30px 10px 0px 0px;
+                                                                                                                        text-align: left;
+                                                                                                                        padding: 0px 0.5em 0 0.5em;
+                                                                                                                        margin: right;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #card-4 {
+                                                                                                                        display: flex;
+                                                                                                                        margin: 10px 10px 0px -5px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #moncercle {
+                                                                                                                        margin: -3px;
+                                                                                                                        background: #DEEBFF;
+                                                                                                                        justify-content: center;
+                                                                                                                        border-radius: 50%;
+                                                                                                                        width: 40px;
+                                                                                                                        height: 40px;
+                                                                                                                        display: table;
+                                                                                                                        -webkit-border-radius: 50%;
+                                                                                                                        -moz-border-radius: 50%;
+                                                                                                                        -ms-border-radius: 50%;
+                                                                                                                        -o-border-radius: 50%;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #moncercle-i {
+                                                                                                                        justify-content: center;
+                                                                                                                        border-radius: 50%;
+                                                                                                                        width: 40px;
+                                                                                                                        height: 40px;
+                                                                                                                        display: table;
+                                                                                                                        -webkit-border-radius: 50%;
+                                                                                                                        -moz-border-radius: 50%;
+                                                                                                                        -ms-border-radius: 50%;
+                                                                                                                        -o-border-radius: 50%;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #moncercle span {
+                                                                                                                        display: table-cell;
+                                                                                                                        vertical-align: middle;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #logo_filter {
+                                                                                                                        color: #0065FC;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #logo_filter_i {
+                                                                                                                        color: black;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #logo_filter_bis {
+                                                                                                                        color: #F2F2F2;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .montableau {
+                                                                                                                        display: flex;
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                        align-items: center;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #elt-e {
+                                                                                                                        padding: 0px 1em 0 2em;
+                                                                                                                        border-radius: 0px 30px 30px 0px;
+                                                                                                                        height: 30px;
+                                                                                                                        display: table;
+                                                                                                                        -webkit-border-radius: 0px 30px 30px 0px;
+                                                                                                                        -moz-border-radius: 0px 30px 30px 0px;
+                                                                                                                        -ms-border-radius: 0px 30px 30px 0px;
+                                                                                                                        -o-border-radius: 0px 30px 30px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .partie_une {
+                                                                                                                        display: flex;
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                        max-width: 1550px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .box_un {
+                                                                                                                        background-color: #F2F2F2;
+                                                                                                                        margin: 50px 10px 10px 10px;
+                                                                                                                        width: 960px;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .box_deux {
+                                                                                                                        background-color: #F2F2F2;
+                                                                                                                        margin: 50px 10px 10px 10px;
+                                                                                                                        width: 460px;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                        -webkit-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -moz-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -ms-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -o-border-radius: 30px 30px 30px 30px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .ligne-une {
+                                                                                                                        /* overflow: hidden; */
+                                                                                                                        display: flex;
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                        align-items: center;
+                                                                                                                        /* flex-direction: row; */
+                                                                                                                        justify-content: center;
+                                                                                                                        /* height: 600px; */
+                                                                                                                        /* margin: auto; */
+                                                                                                                        /* justify-content: space-evenly; */
+                                                                                                                        /* justify-content: space-around; */
+                                                                                                                        /* justify-content: flex-start; */
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .ligne-botton {
+                                                                                                                        display: flex;
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .ligne-deux {
+                                                                                                                        background-color: #F2F2F2;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card-hebergements img {
+                                                                                                                        border-radius: 30px 30px 0px 0px;
+                                                                                                                        width: 250px;
+                                                                                                                        height: 130px;
+                                                                                                                        -webkit-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -moz-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -ms-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -o-border-radius: 30px 30px 0px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card-populaires {
+                                                                                                                        max-width: 380px;
+                                                                                                                        max-height: 160px;
+                                                                                                                        display: flex;
+                                                                                                                        padding: 5px;
+                                                                                                                        margin: 30px;
+                                                                                                                        background-color: white;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                        text-decoration: none;
+                                                                                                                        color: black;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card-populaires img {
+                                                                                                                        width: 145px;
+                                                                                                                        height: 160px;
+                                                                                                                        border-radius: 30px 0px 0px 30px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card-hebergements {
+                                                                                                                        color: black;
+                                                                                                                        width: 250px;
+                                                                                                                        height: 225px;
+                                                                                                                        padding: 5px;
+                                                                                                                        margin: 20px;
+                                                                                                                        background-color: white;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                        -moz-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -ms-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -o-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -webkit-border-radius: 30px 30px 30px 30px;
+                                                                                                                        overflow: hidden;
+                                                                                                                        text-decoration: none;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .divleft {
+                                                                                                                        /* margin: -10px 0px 0px 10px; */
+                                                                                                                        display: flex;
+                                                                                                                        flex-direction: column;
+                                                                                                                        justify-content: flex-start;
+                                                                                                                        height: 140px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .divright {
+                                                                                                                        display: flex;
+                                                                                                                        flex-direction: column;
+                                                                                                                        justify-content: space-between;
+                                                                                                                        height: 150px;
+                                                                                                                    }
+                                                                                                                    /* .rightDiv {
+                                                                    display: flex;
+                                                                    flex-direction: column;
+                                                                    justify-content: space-between;
+                                                                    height: 170px;
+                                                                } */
+                                                                                                                    
+                                                                                                                    .rightDivTop {
+                                                                                                                        margin: 20px 20px 20px 20px;
+                                                                                                                        display: flex;
+                                                                                                                        flex-direction: column;
+                                                                                                                        justify-content: space-between;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .divleftTop {
+                                                                                                                        margin: 20px 20px 20px 20px;
+                                                                                                                        display: flex;
+                                                                                                                        flex-direction: column;
+                                                                                                                        justify-content: space-between;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .divleftTop .p2left {
+                                                                                                                        padding: 0px 0px 5px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .rightDivTop .p2 {
+                                                                                                                        padding: 0px 0px 10px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p0 {
+                                                                                                                        line-height: 4px;
+                                                                                                                        font-size: 15px;
+                                                                                                                        margin: 15px 20px 10px 20px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p0Filtre {
+                                                                                                                        line-height: 4px;
+                                                                                                                        font-size: 1.2em;
+                                                                                                                        font-weight: bolder;
+                                                                                                                        /* margin: 15px 20px 10px 20px; */
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p0Nav {
+                                                                                                                        line-height: 4px;
+                                                                                                                        font-size: 1.2em;
+                                                                                                                        font-weight: bolder;
+                                                                                                                        margin: 15px 20px 10px 20px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p1 {
+                                                                                                                        line-height: 4px;
+                                                                                                                        font-size: 15px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                     ::placeholder {
+                                                                                                                        color: black;
+                                                                                                                        line-height: auto;
+                                                                                                                        font-size: 18px;
+                                                                                                                        font-weight: bold;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p2 {
+                                                                                                                        line-height: auto;
+                                                                                                                        font-size: 24px;
+                                                                                                                        font-weight: bold;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p2Activity {
+                                                                                                                        line-height: auto;
+                                                                                                                        font-size: 24px;
+                                                                                                                        font-weight: bold;
+                                                                                                                        margin-top: 50px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p2Hebergement {
+                                                                                                                        line-height: auto;
+                                                                                                                        font-size: 22px;
+                                                                                                                        font-weight: bold;
+                                                                                                                        margin: 15px 0px 0px 50px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p2left {
+                                                                                                                        line-height: auto;
+                                                                                                                        font-size: 19px;
+                                                                                                                        font-weight: bold;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p2marseille {
+                                                                                                                        line-height: auto;
+                                                                                                                        font-size: 19px;
+                                                                                                                        font-weight: bold;
+                                                                                                                        margin-left: 20px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p2bis {
+                                                                                                                        margin-top: -12px;
+                                                                                                                        margin-left: 20px;
+                                                                                                                        /* margin: -15px 0px 0px 20px; */
+                                                                                                                        /* line-height: 20px; */
+                                                                                                                        font-size: 15px;
+                                                                                                                        /* font-weight: bold; */
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    p span {
+                                                                                                                        margin-left: 50px;
+                                                                                                                        font-size: 22px;
+                                                                                                                        font-weight: bold;
+                                                                                                                        margin: 0px 0px 0px 130px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #elt-a span {
+                                                                                                                        margin-left: 50px;
+                                                                                                                        font-size: 22px;
+                                                                                                                        font-weight: bold;
+                                                                                                                        margin: 0px 0px 0px 20px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p3 {
+                                                                                                                        /* align-self: flex-end; */
+                                                                                                                        margin: 0px 0px 20px 20px;
+                                                                                                                        /* padding-bottom: 0 */
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p3-left {
+                                                                                                                        /* align-self: flex-end; */
+                                                                                                                        margin: 0px 0px 20px 20px;
+                                                                                                                        /* padding-bottom: 0 */
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p3bis {
+                                                                                                                        line-height: auto;
+                                                                                                                        font-size: 23px;
+                                                                                                                        font-weight: bold;
+                                                                                                                        margin: 40px 40px 0px 30px;
+                                                                                                                        /* padding-bottom: 0 */
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p4 {
+                                                                                                                        margin: 10px 0px 0px 10px;
+                                                                                                                        padding-bottom: 0
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .p5 {
+                                                                                                                        margin: 15px 15px 15px 15px;
+                                                                                                                        padding: 10
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    body {
+                                                                                                                        border-left: 50px solid #F2F2F2;
+                                                                                                                        border-right: 50px solid #F2F2F2;
+                                                                                                                        /* background-color: #F2F2F2; */
+                                                                                                                        font-family: "ralewayregular", "Sans serif";
+                                                                                                                        margin: 0;
+                                                                                                                        /* Impossible de réduire la taille de 10px */
+                                                                                                                        margin: 0px 5px;
+                                                                                                                        /* Marges de 5px de la taille de la bordure de chaque cotés du bloc */
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    @font-face {
+                                                                                                                        font-family: 'ralewayregular';
+                                                                                                                        src: url('font/raleway-regular-webfont.woff2') format('woff2'), url('font/raleway-regular-webfont.woff') format('woff');
+                                                                                                                        font-weight: normal;
+                                                                                                                        font-style: normal;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card-bottom {
+                                                                                                                        /* border: 1px solid red; */
+                                                                                                                        padding: 10px;
+                                                                                                                        margin: 15px;
+                                                                                                                        height: 450px;
+                                                                                                                        width: 250;
+                                                                                                                        background-color: white;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                        -moz-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -ms-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -o-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -webkit-border-radius: 30px 30px 30px 30px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card-bottom-un {
+                                                                                                                        padding: 10px;
+                                                                                                                        margin: 15px;
+                                                                                                                        height: 200px;
+                                                                                                                        width: 250px;
+                                                                                                                        background-color: white;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                        -moz-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -ms-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -o-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -webkit-border-radius: 30px 30px 30px 30px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card-bottom-deux {
+                                                                                                                        padding: 10px;
+                                                                                                                        margin: 15px;
+                                                                                                                        height: 180px;
+                                                                                                                        width: 250px;
+                                                                                                                        background-color: white;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                        -moz-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -ms-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -o-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -webkit-border-radius: 30px 30px 30px 30px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card-bottom img {
+                                                                                                                        border-radius: 30px 30px 0px 0px;
+                                                                                                                        width: 300px;
+                                                                                                                        height: 400px;
+                                                                                                                        -webkit-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -moz-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -ms-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -o-border-radius: 30px 30px 0px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card-bottom-un img {
+                                                                                                                        border-radius: 30px 30px 0px 0px;
+                                                                                                                        width: 300px;
+                                                                                                                        height: 220px;
+                                                                                                                        -webkit-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -moz-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -ms-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -o-border-radius: 30px 30px 0px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .imgdeux img {
+                                                                                                                        border-radius: 30px 30px 0px 0px;
+                                                                                                                        width: 300px;
+                                                                                                                        height: 150px;
+                                                                                                                        -webkit-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -moz-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -ms-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -o-border-radius: 30px 30px 0px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card-bottom-deux img {
+                                                                                                                        border-radius: 30px 30px 0px 0px;
+                                                                                                                        width: 300px;
+                                                                                                                        height: 180px;
+                                                                                                                        -webkit-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -moz-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -ms-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -o-border-radius: 30px 30px 0px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .box_bottom {
+                                                                                                                        padding: 10px;
+                                                                                                                        background-color: #F2F2F2;
+                                                                                                                        margin: 10px 10px 10px 10px;
+                                                                                                                        width: auto;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card_activity {
+                                                                                                                        max-width: 1440px;
+                                                                                                                        height: auto;
+                                                                                                                        display: flex;
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                        justify-content: space-between;
+                                                                                                                        align-items: center;
+                                                                                                                        margin-bottom: 30px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card_first,
+                                                                                                                    .card_third {
+                                                                                                                        width: 320px;
+                                                                                                                        height: 480px;
+                                                                                                                        /* border: 2px solid yellow; */
+                                                                                                                        display: flex;
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                        justify-content: space-between;
+                                                                                                                        align-items: center;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card_second {
+                                                                                                                        width: 320px;
+                                                                                                                        height: 480px;
+                                                                                                                        display: flex;
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                        /* justify-content: space-between; */
+                                                                                                                        /* align-items: flex-end; */
+                                                                                                                        place-content: space-between stretch;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .first,
+                                                                                                                    .third {
+                                                                                                                        color: black;
+                                                                                                                        display: flex;
+                                                                                                                        flex-direction: column;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                        width: 100%;
+                                                                                                                        height: 100%;
+                                                                                                                        -webkit-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -moz-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -ms-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -o-border-radius: 30px 30px 30px 30px;
+                                                                                                                        /* box-shadow: 0 0 0 1px #555; */
+                                                                                                                        box-shadow: 1px 1px 12px #F2F2F2;
+                                                                                                                        text-decoration: none;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .elmt_3-0 {
+                                                                                                                        display: flex;
+                                                                                                                        justify-content: space-between;
+                                                                                                                        box-shadow: 1px 1px 12px #F2F2F2;
+                                                                                                                        width: 96%;
+                                                                                                                        height: 90%;
+                                                                                                                        border-radius: 20px 20px;
+                                                                                                                        -webkit-border-radius: 20px 20px;
+                                                                                                                        -moz-border-radius: 20px 20px;
+                                                                                                                        -ms-border-radius: 20px 20px;
+                                                                                                                        -o-border-radius: 20px 20px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .second_one {
+                                                                                                                        color: black;
+                                                                                                                        display: flex;
+                                                                                                                        flex-direction: column;
+                                                                                                                        width: 100%;
+                                                                                                                        height: 50%;
+                                                                                                                        box-shadow: 1px 1px 12px #F2F2F2;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                        padding: 0px -5px 0px 0px;
+                                                                                                                        text-decoration: none;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .second_two {
+                                                                                                                        color: black;
+                                                                                                                        display: flex;
+                                                                                                                        flex-direction: column;
+                                                                                                                        align-content: flex-end;
+                                                                                                                        width: 100%;
+                                                                                                                        height: 40%;
+                                                                                                                        box-shadow: 1px 1px 12px #F2F2F2;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                        -webkit-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -moz-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -ms-border-radius: 30px 30px 30px 30px;
+                                                                                                                        -o-border-radius: 30px 30px 30px 30px;
+                                                                                                                        text-decoration: none;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .second_one img {
+                                                                                                                        height: 70%;
+                                                                                                                        width: 100%;
+                                                                                                                        object-fit: cover;
+                                                                                                                        border-radius: 30px 30px 0px 0px;
+                                                                                                                        -webkit-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -moz-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -ms-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -o-border-radius: 30px 30px 0px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .second_two img {
+                                                                                                                        height: 62%;
+                                                                                                                        width: 100%;
+                                                                                                                        object-fit: cover;
+                                                                                                                        border-radius: 30px 30px 0px 0px;
+                                                                                                                        -webkit-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -moz-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -ms-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -o-border-radius: 30px 30px 0px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .third img,
+                                                                                                                    .first img {
+                                                                                                                        min-height: 85%;
+                                                                                                                        max-width: 100%;
+                                                                                                                        object-fit: cover;
+                                                                                                                        border-radius: 30px 30px 0px 0px;
+                                                                                                                        -webkit-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -moz-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -ms-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -o-border-radius: 30px 30px 0px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .card_fourth {
+                                                                                                                        width: 320px;
+                                                                                                                        height: 480px;
+                                                                                                                        display: flex;
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                        justify-content: space-between;
+                                                                                                                        align-items: flex-end;
+                                                                                                                        place-content: space-between stretch;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .fourth_one,
+                                                                                                                    .fourth_two {
+                                                                                                                        display: flex;
+                                                                                                                        flex-direction: column;
+                                                                                                                        align-content: flex-end;
+                                                                                                                        width: 100%;
+                                                                                                                        height: 45%;
+                                                                                                                        box-shadow: 1px 1px 12px #F2F2F2;
+                                                                                                                        border-radius: 30px 30px 30px 30px;
+                                                                                                                        text-decoration: none;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .fourth_one img,
+                                                                                                                    .fourth_two img {
+                                                                                                                        width: 99%;
+                                                                                                                        height: 70%;
+                                                                                                                        border-radius: 30px 30px 0px 0px;
+                                                                                                                        -webkit-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -moz-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -ms-border-radius: 30px 30px 0px 0px;
+                                                                                                                        -o-border-radius: 30px 30px 0px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .awesomeInfo {
+                                                                                                                        display: flex;
+                                                                                                                        align-items: center;
+                                                                                                                        margin: 1rem 0 2rem 0;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .awesomeInfo-i {
+                                                                                                                        height: 2rem;
+                                                                                                                        width: 2rem;
+                                                                                                                        min-height: 2rem;
+                                                                                                                        min-width: 2rem;
+                                                                                                                        border: solid 1px #F2F2F2;
+                                                                                                                        border-radius: 100%;
+                                                                                                                        display: flex;
+                                                                                                                        align-items: center;
+                                                                                                                        justify-content: center;
+                                                                                                                        margin-right: 1rem;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .awesomeInfo-i-Image {
+                                                                                                                        color: #0065FC;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .awesomeInfoText {
+                                                                                                                        margin: 0;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .footer {
+                                                                                                                        background-color: #F2F2F2;
+                                                                                                                        display: flex;
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                        justify-content: flex-start;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .footer_assistance,
+                                                                                                                    .footer_hebergement,
+                                                                                                                    .footer_propos {
+                                                                                                                        display: flex;
+                                                                                                                        flex-direction: column;
+                                                                                                                        padding: 10px 30px;
+                                                                                                                        margin: 0px 250px 0px 0px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .test {
+                                                                                                                        border: 3px solid blue;
+                                                                                                                    }
+                                                                                                                    /* Media Query for Mobile Devices */
+                                                                                                                    
+                                                                                                                    @media (max-width: 480px) {
+                                                                                                                        #elt-0 {
+                                                                                                                            width: 150px;
+                                                                                                                            text-align: center;
+                                                                                                                            border-top: none;
+                                                                                                                            border-bottom: 2px solid #0065FC;
+                                                                                                                            margin: 0px 50px 0px 5px;
+                                                                                                                            color: #0065FC;
+                                                                                                                        }
+                                                                                                                        .aheadLogo {
+                                                                                                                            order: 0;
+                                                                                                                        }
+                                                                                                                        .aheadNaving {
+                                                                                                                            display: flex;
+                                                                                                                            /* flex-wrap: wrap; */
+                                                                                                                            /* flex-direction: row-reverse; */
+                                                                                                                            justify-content: flex-start;
+                                                                                                                            width: 432px;
+                                                                                                                            height: auto;
+                                                                                                                            order: 1;
+                                                                                                                        }
+                                                                                                                        .aheadSign {
+                                                                                                                            order: 0;
+                                                                                                                            margin: 0px 0px 0px 100px;
+                                                                                                                        }
+                                                                                                                        .aheadNav {
+                                                                                                                            /* border: 3px solid red; */
+                                                                                                                            order: 1;
+                                                                                                                            margin: 0px 0px 0px -100px;
+                                                                                                                        }
+                                                                                                                        .box_un {
+                                                                                                                            order: 1;
+                                                                                                                        }
+                                                                                                                        .box_deux {
+                                                                                                                            order: 0;
+                                                                                                                        }
+                                                                                                                        header {
+                                                                                                                            background-color: skyblue;
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                    /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 600px et 1600px */
+                                                                                                                    
+                                                                                                                    @media (max-width: 1600px) {
+                                                                                                                        .ligne-deux {
+                                                                                                                            display: flex;
+                                                                                                                            /* flex-wrap: wrap; */
+                                                                                                                            align-items: center;
+                                                                                                                            /* flex-direction: row; */
+                                                                                                                            justify-content: center;
+                                                                                                                        }
+                                                                                                                        /* .card-populaires {
+                                                                                                max-width: 380px;
+                                                                                                max-height: 160px;
+                                                                                                display: flex;
+                                                                                                padding: 5px;
+                                                                                                margin: 30px;
+                                                                                                background-color: white;
+                                                                                                border-radius: 30px 30px 30px 30px;
+                                                                                                text-decoration: none;
+                                                                                                color: black;
+                                                                                            } */
+                                                                                                                        .card-populaire {
+                                                                                                                            color: black;
+                                                                                                                            width: 250px;
+                                                                                                                            height: 225px;
+                                                                                                                            padding: 5px;
+                                                                                                                            margin: 20px;
+                                                                                                                            background-color: white;
+                                                                                                                            border-radius: 30px 30px 30px 30px;
+                                                                                                                            -moz-border-radius: 30px 30px 30px 30px;
+                                                                                                                            -ms-border-radius: 30px 30px 30px 30px;
+                                                                                                                            -o-border-radius: 30px 30px 30px 30px;
+                                                                                                                            -webkit-border-radius: 30px 30px 30px 30px;
+                                                                                                                            overflow: hidden;
+                                                                                                                            text-decoration: none;
+                                                                                                                        }
+                                                                                                                        /* Sur les téléviseurs */
+                                                                                                                        @media tv {}
+                                                                                                                        /* Sur tous types d'écrans orientés verticalement */
+                                                                                                                        @media all and (orientation: portrait) {}
