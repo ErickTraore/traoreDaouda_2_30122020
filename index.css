@@ -17,7 +17,7 @@ nav {
     /* padding: 0 2rem; */
     box-sizing: border-box;
     background-color: white;
-    border: 3px solid red;
+    border: 3px solid rgb(10, 10, 10);
 }
 
 #ahead {
@@ -237,7 +237,8 @@ main {
 
 .card-hebergements {
     color: black;
-    width: 26.1%;
+    /* width: 26.1%; */
+    width: 185px;
     height: 145px;
     padding: 5px;
     margin: 20px;
@@ -248,9 +249,11 @@ main {
 }
 
 .card-hebergements img {
-    border-radius: 20px 20px 0px 0px;
-    width: 182px;
+    /* width: 100%; */
+    width: 184px;
     height: 90px;
+    /* height: 50%; */
+    border-radius: 20px 20px 0px 0px;
     -webkit-border-radius: 20px 20px 0px 0px;
     -moz-border-radius: 20px 20px 0px 0px;
     -ms-border-radius: 20px 20px 0px 0px;
@@ -410,6 +413,7 @@ main {
     font-size: 14px;
     font-weight: bold;
     margin: 10px 0px 0px 15px;
+    color: black;
 }
 
 p span {
@@ -424,6 +428,11 @@ p span {
     font-size: 22px;
     font-weight: bold;
     margin: 0px 0px 0px 20px;
+}
+
+.p2left-word {
+    line-height: auto;
+    font-size: 12px;
 }
 
 .p3bis {
@@ -630,22 +639,22 @@ p span {
     height: 75%;
     width: 100%;
     object-fit: cover;
-    border-radius: 30px 30px 0px 0px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -ms-border-radius: 30px 30px 0px 0px;
-    -o-border-radius: 30px 30px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -ms-border-radius: 20px 20px 0px 0px;
+    -o-border-radius: 20px 20px 0px 0px;
 }
 
 .second_two img {
     height: 70%;
     width: 100%;
     object-fit: cover;
-    border-radius: 30px 30px 0px 0px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -ms-border-radius: 30px 30px 0px 0px;
-    -o-border-radius: 30px 30px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -ms-border-radius: 20px 20px 0px 0px;
+    -o-border-radius: 20px 20px 0px 0px;
 }
 
 .third img,
@@ -678,19 +687,23 @@ p span {
     width: 100%;
     height: 45%;
     box-shadow: 1px 1px 12px #F2F2F2;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 20px 20px 20px 20px;
     text-decoration: none;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -ms-border-radius: 20px 20px 20px 20px;
+    -o-border-radius: 20px 20px 20px 20px;
 }
 
 .fourth_one img,
 .fourth_two img {
     width: 99%;
     height: 73%;
-    border-radius: 30px 30px 0px 0px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -ms-border-radius: 30px 30px 0px 0px;
-    -o-border-radius: 30px 30px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -ms-border-radius: 20px 20px 0px 0px;
+    -o-border-radius: 20px 20px 0px 0px;
 }
 
 .awesomeInfo {
@@ -721,10 +734,22 @@ p span {
 }
 
 .footer {
+    max-width: 1550px;
+    margin: 0px auto;
     background-color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+}
+
+.container {
+    padding: 0px 30px;
+    max-width: 1550px;
+    margin: 0px auto;
+    /* padding: 0 2rem; */
+    box-sizing: border-box;
+    background-color: white;
+    border: 3px solid rgb(10, 10, 10);
 }
 
 .footer_assistance,
@@ -733,11 +758,7 @@ p span {
     display: flex;
     flex-direction: column;
     padding: 10px 30px;
-    margin: 0px 250px 0px 0px;
-}
-
-.test {
-    border: 3px solid blue;
+    margin: 0px 120px 0px 0px;
 }
 
 
