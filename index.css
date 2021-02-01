@@ -1,22 +1,56 @@
 body {
+    /* max-width: 1600px; */
+    margin: 0px auto;
     background-color: rgba(0, 0, 0, 0.082);
     font-family: "ralewayregular", "Sans serif";
+    font-size: 16px;
 }
 
-nav {
-    max-width: 1550px;
-    margin: 0px auto;
-    box-sizing: border-box;
-    background-color: white;
+.bloc_page {
+    width: 100rem;
+    border: 3px solid red;
 }
 
 .container {
     padding: 0px 30px;
-    max-width: 1550px;
+    width: 100%;
     margin: 0px auto;
     height: auto;
     box-sizing: border-box;
     background-color: white;
+}
+
+nav {
+    width: 100%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+    justify-content: space-between;
+}
+
+.box_un {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    width: 58%;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.box_deux {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    width: 39%;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
 }
 
 #ahead {
@@ -207,47 +241,20 @@ input {
     -o-border-radius: 0px 30px 30px 0px;
 }
 
-main {
-    display: flex;
-    max-width: 1550px;
-    justify-content: space-between;
-}
-
-
-/* .box_un:nth-child(1) {
-    display: flex;
-    flex-direction: column;
-    background-color: #F2F2F2;
-    width: 66%;
-    height: auto;
-    border-radius: 20px 20px 20px 20px;
-} */
-
-
-/* .box_deux:nth-child(2) {
-    display: flex;
-    flex-direction: column;
-    background-color: #F2F2F2;
-    width: 30%;
-    height: auto;
-    border-radius: 20px 20px 20px 20px;
-    -webkit-border-radius: 20px 20px 20px 20px;
-    -moz-border-radius: 20px 20px 20px 20px;
-    -ms-border-radius: 20px 20px 20px 20px;
-    -o-border-radius: 20px 20px 20px 20px;
-} */
-
 .ligne-une {
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0px 20px;
 }
 
 .card-hebergements {
     color: black;
     width: 26.1%;
-    height: 145px;
+    height: 38%;
+    /* height: 185px; */
     padding: 5px;
     margin: 20px;
     background-color: white;
@@ -258,7 +265,7 @@ main {
 
 .card-hebergements img {
     width: 99%;
-    height: 90px;
+    height: 110px;
     border-radius: 20px 20px 0px 0px;
     -webkit-border-radius: 20px 20px 0px 0px;
     -moz-border-radius: 20px 20px 0px 0px;
@@ -274,14 +281,16 @@ main {
 .ligne-deux {
     width: 100%;
     height: auto;
+    margin: 0px 4px;
 }
 
 .card-populaires {
-    width: 85%;
-    height: 110px;
+    width: 90%;
+    height: 24%;
+    /* height: 110px; */
     display: flex;
     padding: 5px;
-    margin: 20px;
+    margin: 22px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     text-decoration: none;
@@ -292,8 +301,12 @@ main {
     -o-border-radius: 20px 20px 20px 20px;
 }
 
+.divImg {
+    width: 45%;
+}
+
 .card-populaires img {
-    width: 170px;
+    width: 95%;
     height: 100%;
     border-radius: 20px 0px 0px 20px;
     -webkit-border-radius: 20px 0px 0px 20px;
@@ -317,36 +330,41 @@ main {
 
 .p2bis {
     margin: 5px 0px 0px 0px;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .p2ter {
     margin: 5px 0px 0px 15px;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .p2left {
     line-height: auto;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
+    margin: 5px 0px;
 }
 
 .p2leftBis {
     line-height: auto;
-    font-size: 10px;
-    margin: 2px 0px 0px 0px;
+    font-size: 16px;
     color: rgba(0, 0, 0, 0.411);
 }
 
+.p2leftBis span {
+    font-size: 16px;
+}
+
 .divright {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 52%;
+    max-height: 110%;
+    margin-bottom: 0px;
 }
 
 .rightDivTop {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     width: 85%;
     height: 80%;
     margin: 0px 0px 0px 15px;
@@ -398,9 +416,9 @@ main {
 
 .p2Hebergement {
     line-height: auto;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .p2marseille {
@@ -412,9 +430,9 @@ main {
 }
 
 p span {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
-    margin: 0px 0px 0px 56px;
+    margin: 0px 0px 0px 132px;
 }
 
 #elt-a span {
@@ -431,7 +449,7 @@ p span {
 
 .p3bis {
     line-height: auto;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     margin: 40px 40px 0px 30px;
 }
@@ -755,7 +773,8 @@ p span {
 
 /* On screens that are 1281px wide or less, go from four columns to two columns */
 
-@media screen and (max-width: 1281px) {
+
+/* @media screen and (max-width: 1281px) {
     main {
         max-width: 1281px;
     }
@@ -774,58 +793,61 @@ p span {
     .footer_propos {
         margin: 0px 0px 0px 0px;
     }
-}
+} */
 
 @media screen and (max-width: 960px) {
-    main {
+    /* main {
         max-width: 960px;
         display: block;
         justify-content: space-between;
+    } */
+    main {
+        width: 960px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        /* justify-content: space-between; */
     }
-    .box_un:nth-child(1) {
-        width: 100%;
-        order: 2;
+    .box_un {
+        width: 155%;
+        /* flex-direction: row; */
     }
-    .box_deux:nth-child(2) {
-        width: 100%;
+    .box_deux {
+        width: 155%;
         margin: 0px;
         padding: 0px;
-        order: 1;
     }
-    .ligne_deux {
-        margin: 0px auto;
-        align-items: flex-end;
-        /* display: flex; */
+    .ligne-deux {
+        width: 100%;
+        /* margin: 0px auto; */
+        /* align-items: flex-end; */
+        display: flex;
+        flex-direction: row;
         /* justify-content: flex-end; */
     }
     .card-hebergements {
-        width: 24.1%;
-        margin: 18px;
+        width: 29.1%;
+        height: 200px;
     }
     .card-populaires {
-        width: 50%;
-        height: 110px;
+        width: 29%;
+        height: 180px;
         display: flex;
+        flex-wrap: wrap;
         padding: 5px;
-        margin: 20px 20px 20px 200px;
+        margin: 20px 20px 20px 20px;
         background-color: white;
         border-radius: 20px 20px 20px 20px;
         text-decoration: none;
         color: black;
-        -webkit-border-radius: 20px 20px 20px 20px;
-        -moz-border-radius: 20px 20px 20px 20px;
-        -ms-border-radius: 20px 20px 20px 20px;
-        -o-border-radius: 20px 20px 20px 20px;
+        border: 3px solid red;
     }
     .card-populaires img {
         /* width: 40%; */
         width: 170px;
         height: 100%;
         border-radius: 20px 0px 0px 20px;
-        -webkit-border-radius: 20px 0px 0px 20px;
-        -moz-border-radius: 20px 0px 0px 20px;
-        -ms-border-radius: 20px 0px 0px 20px;
-        -o-border-radius: 20px 0px 0px 20px;
+        border: 3px solid red;
     }
     .card_first,
     .card_third {
@@ -842,6 +864,11 @@ p span {
 }
 
 @media screen and (max-width: 480px) {
+    main {
+        max-width: 480px;
+        display: block;
+        justify-content: space-between;
+    }
     #elt-0 {
         width: 150px;
         text-align: center;
