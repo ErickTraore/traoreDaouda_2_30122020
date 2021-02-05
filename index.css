@@ -60,6 +60,10 @@
                 margin: 0px 10px 0px 0px;
             }
             
+            .aheadLogo img {
+                width: 100px;
+            }
+            
             .aheadNaving {
                 display: flex;
                 flex-wrap: wrap;
@@ -160,7 +164,7 @@
                 clear: both;
             }
             
-            #card-2 {
+            .card-2 {
                 margin: -2px 30px 22px 5px;
                 width: auto;
                 height: 55px;
@@ -286,14 +290,14 @@
             
             .card-populaires {
                 width: 86%;
-                height: 18%;
+                height: 25%;
                 display: flex;
                 padding: 5px;
                 margin: 20px 0px 33px 29px;
                 background-color: white;
                 border-radius: 20px 20px 20px 20px;
                 text-decoration: none;
-                color: black;
+                /* color: black; */
                 -webkit-border-radius: 20px 20px 20px 20px;
                 -moz-border-radius: 20px 20px 20px 20px;
                 -ms-border-radius: 20px 20px 20px 20px;
@@ -302,12 +306,13 @@
             
             .divImg {
                 width: 45%;
+                height: 180px;
             }
             
             .card-populaires img {
                 width: 95%;
                 object-fit: cover;
-                height: 100%;
+                height: 96%;
                 border-radius: 20px 0px 0px 20px;
                 -webkit-border-radius: 20px 0px 0px 20px;
                 -moz-border-radius: 20px 0px 0px 20px;
@@ -319,6 +324,7 @@
                 display: flex;
                 flex-direction: column;
                 height: 50px;
+                margin-left: 13px;
             }
             
             .divleftTop {
@@ -343,6 +349,7 @@
                 font-size: 20px;
                 font-weight: bold;
                 margin: 5px 0px;
+                color: black;
             }
             
             .p2leftBis {
@@ -360,7 +367,7 @@
             .divright {
                 max-width: 52%;
                 max-height: 110%;
-                margin-bottom: 0px;
+                margin: 0px 0px 0px 10px;
             }
             
             .rightDivTop {
@@ -425,6 +432,11 @@
                 font-size: 24px;
                 font-weight: bold;
                 margin-top: 50px;
+                color: black;
+            }
+            
+            a:link {
+                text-decoration: none;
             }
             
             .p2Hebergement {
@@ -464,7 +476,7 @@
                 line-height: auto;
                 font-size: 24px;
                 font-weight: bold;
-                margin: 40px 40px 0px 30px;
+                color: black;
             }
             
             .p4 {
@@ -794,6 +806,14 @@
             }
             /* On screens that are 1281px wide or less, go from four columns to two columns */
             
+            a:hover {
+                color: #0000FF;
+                text-decoration: underline;
+                background-color: #FFFF00;
+                font-weight: bold;
+                font-style: normal;
+            }
+            
             @media screen and (max-width: 1281px) {
                 .footer,
                 .card_activity,
@@ -802,9 +822,15 @@
                 main {
                     max-width: 1281px;
                 }
+                #logo_filter {
+                    color: #0065FC;
+                }
             }
             
             @media screen and (max-width: 960px) {
+                #logo_filter {
+                    color: #0065FC;
+                }
                 main {
                     width: 960px;
                     display: flex;
@@ -859,6 +885,9 @@
             }
             
             @media screen and (max-width: 481px) {
+                #logo_filter {
+                    color: #0065FC;
+                }
                 #elt-0 {
                     width: 150px;
                     text-align: center;
@@ -1000,6 +1029,7 @@
                 }
                 .footer {
                     display: block;
+                    width: 543px;
                 }
                 p span {
                     font-size: 22px;
@@ -1040,7 +1070,7 @@
                     -o-border-radius: 20px 20px 20px 20px;
                 }
                 .card-hebergements img {
-                    object-fit: cover;
+                    /* object-fit: cover; */
                     height: 180px;
                     /* box-shadow: 1px 1px 12px #F2F2F2; */
                 }
@@ -1068,7 +1098,6 @@
                     -ms-border-radius: 20px 20px 20px 20px;
                     -o-border-radius: 20px 20px 20px 20px;
                     box-shadow: 1px 1px 12px #F2F2F2;
-                    object-fit: cover;
                 }
                 .card_mobil img {
                     width: 100%;
@@ -1079,7 +1108,6 @@
                     -moz-border-radius: 20px 20px 0px 0px;
                     -ms-border-radius: 20px 20px 0px 0px;
                     -o-border-radius: 20px 20px 0px 0px;
-                    object-fit: cover;
                 }
                 .card_mobil P {
                     width: 100%;

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="index.css" />
     <link href="css/all.min.css" rel="stylesheet">
     <title>Projet2-Reservia</title>
@@ -17,7 +19,7 @@
             <nav>
                 <div id="ahead">
                     <div class="aheadLogo">
-                        <img src="images/logo/Reservia.svg">
+                        <img src="images/logo/logo.png" alt="logo">
                     </div>
                     <div class="aheadNaving">
                         <div class="aheadNav">
@@ -65,30 +67,29 @@
                             Filtres
                         </p>
                     </div>
-                    <div id="card-2">
+                    <a id="card-2">
                         <div id="moncercle"><span class="fas fa-money-bill-wave" id="logo_filter"></span></div>
                         <div class="p0Nav">
                             Économique
                         </div>
-                    </div>
-
-                    <div id="card-2">
+                    </a>
+                    <a class="card-2">
                         <div id="moncercle"><span class="fas fa-child" id="logo_filter"></span></div>
                         <div class="p0Nav">
                             Familial
                         </div>
-                    </div>
-                    <div id="card-2">
+                    </a>
+                    <a class="card-2">
                         <div id="moncercle"><span class="fas fa-heart" id="logo_filter"></span></div>
                         <div class="p0Nav">
                             Romantique
                         </div>
-                    </div>
-                    <div id="card-2">
+                    </a>
+                    <a class="card-2">
                         <div id="moncercle"><span class="fas fa-dog" id="logo_filter"></span></div>
                         <p class="p0NavBis"> Animaux autorisés
                         </p>
-                    </div>
+                    </a>
                 </div>
                 <section class="awesome">
                     <div class="awesomeInfo">
@@ -98,17 +99,16 @@
                 </section>
             </nav>
             <main>
-                <section class="box_un" class="element">
+                <section class="box_un" id="box_un">
                     <div class="ligne-zero">
-                        <p class="p3bis">Hébergements à Marseille</p>
+                        <a href="#box_un" class="p3bis">
+                            <p>Hébergements à Marseille</p>
+                        </a>
                     </div>
                     <div class="ligne-une">
                         <a class="card-hebergements" href="#">
                             <div>
-                                <img src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" srcset="images/activites/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg 5993 w,
-        images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg 2997w, 
-        images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg 1499w, 
-        images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg 750w" sizes="170px, 225px, 260px, 325px, 400vw" alt="Photographie" />
+                                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photographie" />
                             </div>
                             <div class="divleft">
                                 <div class="divleftTop">
@@ -128,10 +128,7 @@
                         </a>
                         <a class="card-hebergements" href="#">
                             <div>
-                                <img src="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" srcset="images/activites/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg 5472w,
-                                        images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg 2736w, 
-                                        images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1368w, 
-                                        images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg 684w" sizes="170px, 225px, 260px, 325px" alt="Photographie" />
+                                <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Photographie" />
                             </div>
                             <div class="divleft">
                                 <div class="divleftTop">
@@ -151,10 +148,7 @@
                         </a>
                         <a class="card-hebergements" href="#">
                             <div>
-                                <img src="images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" srcset="images/activites/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg 6000w,
-        images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg 3000w, 
-        images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg 1500w, 
-        images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg 750w" sizes="170px, 225px, 260px, 325px" alt="Photographie" />
+                                <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Photographie" />
                             </div>
                             <div class="divleft">
                                 <div class="divleftTop">
@@ -163,81 +157,72 @@
                                         <span>€</span>
                                     </div>
                                 </div>
-                                <div class="p2bis ">
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter_bis"></div>
+                                <div class="p2bis">
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter_bis"></div>
                                 </div>
                             </div>
                         </a>
-                        <a class="card-hebergements " href="# ">
+                        <a class="card-hebergements" href="#">
                             <div>
-                                <img src="images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" srcset="images/activites/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg 4000w,
-        images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg 2000w, 
-        images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg 1000w, 
-        images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg 500w" sizes="170px, 225px, 260px, 325px" alt="Photographie" />
+                                <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Photographie" />
                             </div>
-                            <div class="divleft ">
-                                <div class="divleftTop ">
-                                    <div class="p2left ">Hôtel de la mer</div>
+                            <div class="divleft">
+                                <div class="divleftTop">
+                                    <div class="p2left">Hôtel de la mer</div>
                                     <div class="p2leftBis">Nuit à partir de 46
                                         <span>€</span>
                                     </div>
                                 </div>
-                                <div class="p2bis ">
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter_bis"></div>
-                                    <div class="fas fa-star " id="logo_filter_bis"></div>
+                                <div class="p2bis">
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter_bis"></div>
+                                    <div class="fas fa-star" id="logo_filter_bis"></div>
                                 </div>
                             </div>
                         </a>
-                        <a class="card-hebergements " href="# ">
+                        <a class="card-hebergements" href="#">
                             <div>
-                                <img src="images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" srcset="images/activites/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 5212w,
-                                        images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 2606w, 
-                                        images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 1303w, 
-                                        images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 652w" sizes="170px, 225px, 260px, 325px" alt="Photographie" />
+                                <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Photographie" />
                             </div>
-                            <div class="divleft ">
-                                <div class="divleftTop ">
-                                    <div class="p2left ">Auberge Le Panier</div>
+                            <div class="divleft">
+                                <div class="divleftTop">
+                                    <div class="p2left">Auberge Le Panier</div>
                                     <div class="p2leftBis">Nuit à partir de 23
                                         <span>€</span>
                                     </div>
                                 </div>
-                                <div class="p2bis ">
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter_bis"></div>
+                                <div class="p2bis">
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter_bis"></div>
                                 </div>
                             </div>
                         </a>
-                        <a class="card-hebergements " href="# ">
+                        <a class="card-hebergements" href="#">
                             <div>
-                                <img src="images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" srcset="images/activites/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 3888w,
-        images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 1944w, 
-        images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 972w, 
-        images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 486w" sizes="170px, 225px, 260px, 325px" alt="Photographie" />
+                                <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Photographie" />
                             </div>
-                            <div class="divleft ">
-                                <div class="divleftTop ">
-                                    <div class="p2left ">Hôtel chez Amina</div>
+                            <div class="divleft">
+                                <div class="divleftTop">
+                                    <div class="p2left">Hôtel chez Amina</div>
                                     <div class="p2leftBis">Nuit à partir de 96
                                         <span>€</span>
                                     </div>
                                 </div>
-                                <div class="p2bis ">
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
+                                <div class="p2bis">
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
                                 </div>
                             </div>
                         </a>
@@ -251,59 +236,50 @@
                         <p class="p3bis">Les plus populaires
                             <span><i class="fas fa-chart-line"></i></span></p>
                     </div>
-                    <div class="ligne-deux ">
-                        <a class="card-populaires " href="# ">
+                    <div class="ligne-deux">
+                        <a class="card-populaires" href="#">
                             <div class="divImg">
-                                <img src="images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" srcset="images/activites/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 4249w,
-                                images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 2125w, 
-                                images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 1063w, 
-                                images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 532w" sizes="160px, 220px, 250px, 300px" alt="Photographie" />
+                                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Photographie" />
                             </div>
                             <div class="divright">
-                                <div class="rightDivTop ">
-                                    <div class="p2left ">Hôtel Le soleil du matin</div>
+                                <div class="rightDivTop">
+                                    <div class="p2left">Hôtel Le soleil du matin</div>
                                     <div class="p2leftBis">Nuit à partir de 128
                                         <span>€</span>
                                     </div>
                                 </div>
 
                                 <div class="p2ter">
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
                                 </div>
                             </div>
                         </a>
-                        <a class="card-populaires" href="# ">
+                        <a class="card-populaires" href="#">
                             <div class="divImg">
-                                <img src="images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg" srcset="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 5616w,
-                                images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg 2808w, 
-                                images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg 1404w, 
-                                images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg 702w" sizes="160px,220px,250px,300px" alt="Photographie" /> </div>
+                                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Photographie" /> </div>
                             <div class="divright">
                                 <div class="rightDivTop">
-                                    <div class="p2left ">Au coeur de l' eau Chambres d'hôtes</div>
+                                    <div class="p2left">Au coeur de l' eau Chambres d'hôtes</div>
                                     <div class="p2leftBis">Nuit à partir de 71
                                         <span>€</span>
                                     </div>
                                 </div>
                                 <div class="p2ter">
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter_bis"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter_bis"></div>
                                 </div>
                             </div>
                         </a>
-                        <a class="card-populaires" href="# ">
+                        <a class="card-populaires" href="#">
                             <div class="divImg">
-                                <img src="images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg" srcset="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 5616w,
-                                images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg 2808w, 
-                                images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg 1404w, 
-                                images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg 702w" sizes="160px,220px,250px,300px" alt="Photographie" />
+                                <img src="images/hebergements4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Photographie" />
                             </div>
                             <div class="divright">
                                 <div class="rightDivTop">
@@ -313,11 +289,11 @@
                                     </div>
                                 </div>
                                 <div class="p2ter">
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter"></div>
-                                    <div class="fas fa-star " id="logo_filter_bis"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter"></div>
+                                    <div class="fas fa-star" id="logo_filter_bis"></div>
                                 </div>
                             </div>
                         </a>
@@ -325,62 +301,45 @@
                 </section>
             </main>
             <div>
-                <p class="p2Activity ">
-                    Activités à Marseille
-                </p>
+                <a href="#card_activity" class="p2Activity">
+                    <p>Activités à Marseille</p>
+                </a>
             </div>
-            <div class="card_activity">
+            <div class="card_activity" id="card_activity">
                 <div class="card_first">
-                    <a class="first" href="# ">
-                        <img src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" srcset="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 5616w,
-                        images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 2808w, 
-                        images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 1404w, 
-                        images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 702w" sizes="339px,420px,679px " alt="Photographie" />
-                        <P class="p3marseille">Vieux Port</P>
+                    <a class="first" href="#">
+                        <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Photographie" />
+                        <P class="p2marseille">Vieux Port</P>
                     </a>
 
                 </div>
                 <div class="card_second">
                     <a class="second_one" href="#">
-                        <img src="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" srcset="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg 2843w,
-                        images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg 1422w, 
-                        images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg 711w, 
-                        images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg 356w" sizes="339px,420px,679px" alt="Photographie" />
-                        <p class="p3marseille ">Fort de Pomègues
+                        <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Photographie" />
+                        <p class="p2marseille">Fort de Pomègues
                         </p>
                     </a>
-                    <a class="second_two " href="# ">
-                        <img src="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" srcset="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 5184w,
-                        images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 2592w, 
-                        images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 1296w, 
-                        images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 648w" sizes="339px;420px,679px " alt="Photographie" />
-                        <p class="p3marseille">Île du Frioul
+                    <a class="second_two" href="#">
+                        <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Photographie" />
+                        <p class="p2marseille">Île du Frioul
                         </p>
                     </a>
                 </div>
                 <div class="card_third">
-                    <a class="third " href="# ">
-                        <img src="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" srcset="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 4846w,
-                          images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 2423w, 
-                         images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 1212w, 
-                         images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 606w" sizes="339px,420px,679px " alt="Photographie" />
-                        <p class="p3marseille">Parc National des Calanques
+                    <a class="third" href="#">
+                        <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Photographie" />
+                        <p class="p2marseille">Parc National des Calanques
                         </p>
                     </a>
                 </div>
                 <div class="card_fourth">
                     <a class="fourth_one" href="#">
-                        <img src="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" srcset="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg 4712w,
-                               images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg 2356, 
-                              images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg 1178w, 
-                              images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg 589w" sizes="339px,420px,679px" alt="Photographie" />
-                        <p class="p3marseille">Notre-Dame-de-la-Garde</p>
+                        <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Photographie" />
+                        <p class="p2marseille">Notre-Dame-de-la-Garde</p>
                     </a>
                     <a class="fourth_two" href="#">
-                        <img src="images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg" srcset="images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg 4032w,
-                                  images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg 2016w, images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg 1008w, images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg 504w" sizes="339px,420px,679px"
-                            alt="Photographie" />
-                        <p class="p3marseille">Parc Longchamp</p>
+                        <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Photographie" />
+                        <p class="p2marseille">Parc Longchamp</p>
                     </a>
                 </div>
             </div>
@@ -388,55 +347,38 @@
             <div class="card_activ_mobil">
                 <a class="mobil_first" href="#">
                     <div class="card_mobil">
-                        <img src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" srcset="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 5616w,
-                        images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 2808w, 
-                        images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 1404w, 
-                        images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 702w" sizes="339px,420px,679px" alt="Photographie" />
+                        <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Photographie" />
                         <P>Vieux Port</P>
                     </div>
                 </a>
                 <a class="mobil_seconde_one" href="#">
                     <div class="card_mobil">
-                        <img src="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" srcset="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg 2843w,
-                        images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg 1422w, 
-                        images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg 711w, 
-                        images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg 356w" sizes="339px,420px,679px" alt="Photographie" />
+                        <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Photographie" />
                         <p>Fort de Pomègues</p>
                     </div>
                 </a>
                 <a class="mobil_seconde_two" href="#">
                     <div class="card_mobil">
-                        <img src="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" srcset="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 5184w,
-                        images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 2592w, 
-                        images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 1296w, 
-                        images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 648w" sizes="339px,420px,679px" alt="Photographie" />
+                        <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Photographie" />
                         <p>Île du Frioul</p>
                     </div>
                 </a>
                 <a class="mobil_third" href="#">
                     <div class="card_mobil">
-                        <img src="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" srcset="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 4846w,
-                          images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 2423w, 
-                         images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 1212w, 
-                         images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 606w" sizes="339px,420px,679px" alt="Photographie" />
+                        <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Photographie" />
                         <p>Parc National des Calanques
                         </p>
                     </div>
                 </a>
                 <a class="mobil_fourth_one" href="#">
                     <div class="card_mobil">
-                        <img src="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" srcset="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg 4712w,
-                               images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg 2356, 
-                              images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg 1178w, 
-                              images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg 589w" sizes="339px,420px,679px" alt="Photographie" />
+                        <img src="images/activites/4_smallflorian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Photographie" />
                         <p>Notre-Dame-de-la-Garde</p>
                     </div>
                 </a>
                 <a class="mobil_fourth_two" href="#">
                     <div class="card_mobil">
-                        <img src="images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg" srcset="images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg 4032w,
-                                  images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg 2016w, images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg 1008w, images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg 504w" sizes="339px,420px,679px"
-                            alt="Photographie" />
+                        <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Photographie" />
                         <p>Parc Longchamp</p>
                     </div>
                 </a>
@@ -464,8 +406,5 @@
         </div>
     </div>
 </body>
-<!----------- FIN-BODY -->
-
-</html>
 
 </html>
