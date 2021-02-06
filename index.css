@@ -23,7 +23,7 @@
                 width: 100%;
                 margin: 0px auto;
                 box-sizing: border-box;
-                background-color: white;
+                /* background-color: white; */
             }
             
             main {
@@ -38,7 +38,7 @@
                 display: flex;
                 flex-direction: column;
                 background-color: #F2F2F2;
-                width: 58%;
+                width: 59%;
                 height: auto;
                 border-radius: 20px 20px 20px 20px;
             }
@@ -131,24 +131,18 @@
             
             #elt-c {
                 width: 170px;
-                border-radius: 0px 20px 20px 0px;
                 background-color: #0065FC;
                 color: white;
-                -webkit-border-radius: ;
-                -moz-border-radius: ;
-                -ms-border-radius: ;
-                -o-border-radius: ;
+                border-radius: 0px 20px 20px 0px;
             }
             
             .searchReserviaTexte {
                 font-size: 25px;
                 margin-top: 13px;
             }
-            
-            #elt-c .fas {
-                font-size: 25px;
-                margin-top: 15px;
-            }
+            /* #elt-c .fas {
+                display: none;
+            } */
             
             input {
                 width: 150px;
@@ -172,7 +166,6 @@
                 text-align: center;
                 border-radius: 30px 30px 30px 30px;
                 display: flex;
-                justify-content: auto;
                 border: 3px solid #F2F2F2;
             }
             
@@ -180,7 +173,6 @@
                 margin: -29px 10px 0px 0px;
                 text-align: left;
                 padding: 0px 0.5em 0 0.5em;
-                margin: right;
             }
             
             #card-4 {
@@ -188,7 +180,7 @@
                 margin: 10px 10px 0px -5px;
             }
             
-            #moncercle {
+            .moncercle {
                 margin: -3px;
                 background: #DEEBFF;
                 /* justify-content: center; */
@@ -204,26 +196,22 @@
                 width: 40px;
                 height: 40px;
                 display: table;
-                -webkit-border-radius: 50%;
-                -moz-border-radius: 50%;
-                -ms-border-radius: 50%;
-                -o-border-radius: 50%;
             }
             
-            #moncercle span {
+            .moncercle span {
                 display: table-cell;
                 vertical-align: middle;
             }
             
-            #logo_filter {
+            .fas {
                 color: #0065FC;
             }
             
-            #logo_filter_i {
+            .check {
                 color: black;
             }
             
-            #logo_filter_bis {
+            .checked {
                 color: #F2F2F2;
             }
             
@@ -238,10 +226,6 @@
                 height: 30px;
                 display: table;
                 border-radius: 0px 30px 30px 0px;
-                -webkit-border-radius: 0px 30px 30px 0px;
-                -moz-border-radius: 0px 30px 30px 0px;
-                -ms-border-radius: 0px 30px 30px 0px;
-                -o-border-radius: 0px 30px 30px 0px;
             }
             
             .ligne-une {
@@ -255,11 +239,11 @@
             
             .card-hebergements {
                 color: black;
-                width: 26.1%;
-                height: 38%;
+                width: 29%;
+                height: 48%;
                 box-shadow: 1px 1px 12px #F2F2F2;
-                padding: 5px;
-                margin: 20px;
+                padding: 2px;
+                margin: 7px;
                 background-color: white;
                 border-radius: 20px 20px 20px 20px;
                 overflow: hidden;
@@ -271,10 +255,6 @@
                 object-fit: cover;
                 height: 110px;
                 border-radius: 20px 20px 0px 0px;
-                -webkit-border-radius: 20px 20px 0px 0px;
-                -moz-border-radius: 20px 20px 0px 0px;
-                -ms-border-radius: 20px 20px 0px 0px;
-                -o-border-radius: 20px 20px 0px 0px;
             }
             
             .ligne-botton {
@@ -297,11 +277,6 @@
                 background-color: white;
                 border-radius: 20px 20px 20px 20px;
                 text-decoration: none;
-                /* color: black; */
-                -webkit-border-radius: 20px 20px 20px 20px;
-                -moz-border-radius: 20px 20px 20px 20px;
-                -ms-border-radius: 20px 20px 20px 20px;
-                -o-border-radius: 20px 20px 20px 20px;
             }
             
             .divImg {
@@ -314,10 +289,6 @@
                 object-fit: cover;
                 height: 96%;
                 border-radius: 20px 0px 0px 20px;
-                -webkit-border-radius: 20px 0px 0px 20px;
-                -moz-border-radius: 20px 0px 0px 20px;
-                -ms-border-radius: 20px 0px 0px 20px;
-                -o-border-radius: 20px 0px 0px 20px;
             }
             
             .divleft {
@@ -345,7 +316,6 @@
             }
             
             .p2left {
-                line-height: auto;
                 font-size: 20px;
                 font-weight: bold;
                 margin: 5px 0px;
@@ -353,7 +323,6 @@
             }
             
             .p2leftBis {
-                line-height: auto;
                 font-size: 16px;
                 color: rgba(0, 0, 0, 0.411);
             }
@@ -416,19 +385,16 @@
             
              ::placeholder {
                 color: black;
-                line-height: auto;
                 font-size: 18px;
                 font-weight: bold;
             }
             
             .p2 {
-                line-height: auto;
                 font-size: 24px;
                 font-weight: bold;
             }
             
             .p2Activity {
-                line-height: auto;
                 font-size: 24px;
                 font-weight: bold;
                 margin-top: 50px;
@@ -440,14 +406,12 @@
             }
             
             .p2Hebergement {
-                line-height: auto;
                 font-size: 22px;
                 font-weight: bold;
                 margin-left: 20px;
             }
             
             .p2marseille {
-                line-height: auto;
                 font-size: 14px;
                 font-weight: bold;
                 margin: 10px 0px 0px 15px;
@@ -468,15 +432,25 @@
             }
             
             .p2left-word {
-                line-height: auto;
                 font-size: 12px;
             }
             
             .p3bis {
-                line-height: auto;
                 font-size: 24px;
                 font-weight: bold;
                 color: black;
+            }
+            
+            .p3bis p {
+                display: inline-block;
+                margin-left: 43px;
+            }
+            
+            .p3bis span {
+                display: inline-block;
+                margin-left: 165px;
+                text-decoration: none;
+                /* color: black; */
             }
             
             .p4 {
@@ -486,7 +460,7 @@
             
             .p5 {
                 margin: 15px 15px 15px 15px;
-                padding: 10
+                padding: 10px;
             }
             
             @font-face {
@@ -501,7 +475,7 @@
                 padding: 10px;
                 margin: 15px;
                 height: 450px;
-                width: 250;
+                width: 250px;
                 background-color: white;
                 border-radius: 30px 30px 30px 30px;
                 -moz-border-radius: 30px 30px 30px 30px;
@@ -653,8 +627,11 @@
                 height: 50%;
                 box-shadow: 1px 1px 12px #F2F2F2;
                 border-radius: 30px 30px 30px 30px;
-                padding: 0px -5px 0px 0px;
                 text-decoration: none;
+                -webkit-border-radius: 30px 30px 30px 30px;
+                -moz-border-radius: 30px 30px 30px 30px;
+                -ms-border-radius: 30px 30px 30px 30px;
+                -o-border-radius: 30px 30px 30px 30px;
             }
             
             .second_two {
@@ -934,9 +911,6 @@
                     font-size: 18px;
                     font-weight: bold;
                 }
-                .searchReserviaTexte {
-                    display: none;
-                }
                 .bloc_page,
                 nav {
                     width: 481px;
@@ -1016,7 +990,6 @@
                     border-radius: 20px 0px 0px 20px;
                 }
                 .p2marseille {
-                    line-height: auto;
                     height: 30%;
                     font-size: 18px;
                     font-weight: bold;
@@ -1037,7 +1010,6 @@
                     margin: 0px 0px 0px 224px;
                 }
                 .p3bis {
-                    line-height: auto;
                     font-size: 24px;
                     font-weight: bold;
                     margin: 40px 11px 0px 30px
@@ -1070,9 +1042,10 @@
                     -o-border-radius: 20px 20px 20px 20px;
                 }
                 .card-hebergements img {
-                    /* object-fit: cover; */
+                    object-fit: cover;
+                    width: 89%;
                     height: 180px;
-                    /* box-shadow: 1px 1px 12px #F2F2F2; */
+                    margin: 0px 0px 0px 28px;
                 }
                 .divleft {
                     margin: 0px 0px 0px 15px;
@@ -1118,5 +1091,13 @@
                 }
                 a:link {
                     text-decoration: none;
+                }
+                #elt-c .fas {
+                    font-size: 25px;
+                    margin-top: 15px;
+                    color: white;
+                }
+                .searchReserviaTexte {
+                    display: none;
                 }
             }
