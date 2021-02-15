@@ -1,18 +1,9 @@
-    body {
+body {
     width: 1600px;
     height: auto;
     margin: 0px auto;
     font-family: "ralewayregular", "Sans serif";
     font-size: 16px;
-}
-
-
-/* body {
-    text-align: center;
-} */
-
-.bloc_page {
-    width: 100rem;
 }
 
 .container {
@@ -777,232 +768,256 @@ p span {
 
 /* On screens that are 1281px wide or less, go from four columns to two columns */
 
-@media screen and (max-width: 1281px) {
-    /* .footer,
-    .card_activity,
-    nav,
+@media screen and (max-width: 960px) {
+    /* main {
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: column-reverse;
+                        /* justify-content: space-between; */
+}
+
+.box_un {
+    width: 100%;
+    /* flex-direction: row; */
+}
+
+.box_deux {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ligne-deux {
+    width: 100%;
+    /* width: 960px; */
+    /* margin: 0px auto; */
+    /* align-items: flex-end; */
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
+}
+
+.card-hebergements {
+    width: 29.1%;
+    height: 200px;
+}
+
+.card-populaires {
+    width: 29%;
+    /* width: 180px; */
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 20px 20px 20px 20px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.card-populaires img {
+    width: 170px;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.footer {
+    display: block;
+}
+
+
+}
+@media screen and (max-width: 480px) {
+    #elt-0 {
+        width: 150px;
+        text-align: center;
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        margin: 0px 50px 0px 5px;
+        color: #0065FC;
+    }
+    
+    .aheadLogo {
+        order: 0;
+    }
+    
+    .aheadNaving {
+        display: flex;
+        justify-content: flex-start;
+        width: 432px;
+        height: auto;
+        order: 1;
+    }
+    
+    .aheadSign {
+        order: 0;
+        margin: 0px 0px 0px 100px;
+    }
+    
+    .aheadNav {
+        order: 1;
+        margin: 0px 0px 0px -100px;
+    }
+    
+    .awesomeInfo-i {
+        height: 2rem;
+        width: 2rem;
+        min-height: 2rem;
+        min-width: 2rem;
+        border: solid 3px #F2F2F2;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -8px 0px 0px 0px;
+    }
+    
+    .awesomeInfo-i-Image {
+        color: #0065FC;
+    }
+    
+    .awesomeInfoText {
+        margin: 0px 11px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .searchReserviaTexte {
+        display: none;
+    }
+    
     .bloc_page,
+    nav {
+        width: 480px;
+        margin: 0px 0px;
+    }
+    
+    body {
+        max-width: 480px;
+    }
+    
     main {
-        max-width: 1281px;
+        width: 480px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        /* justify-content: space-between; */
     }
-} */
-    @media screen and (max-width: 960px) {
-        /* .bloc_page {
-                                                                                                                                                                            width: 960px;
-                                                                                                                                                                        } */
-        main {
-            width: 960px;
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column-reverse;
-            /* justify-content: space-between; */
-        }
-        .box_un {
-            width: 155%;
-            /* flex-direction: row; */
-        }
-        .box_deux {
-            width: 155%;
-            margin: 0px;
-            padding: 0px;
-        }
-        .ligne-deux {
-            width: 100%;
-            /* width: 960px; */
-            /* margin: 0px auto; */
-            /* align-items: flex-end; */
-            display: flex;
-            /* flex-direction: row; */
-            /* justify-content: flex-end; */
-        }
-        .card-hebergements {
-            width: 29.1%;
-            height: 200px;
-        }
-        .card-populaires {
-            width: 29%;
-            /* width: 180px; */
-            height: 180px;
-            display: flex;
-            flex-wrap: wrap;
-            padding: 5px;
-            margin: 20px 20px 20px 20px;
-            background-color: white;
-            border-radius: 20px 20px 20px 20px;
-            text-decoration: none;
-            color: black;
-        }
-        .card-populaires img {
-            width: 170px;
-            height: 100%;
-            border-radius: 20px 0px 0px 20px;
-        }
-        .footer {
-            display: block;
-        }
+    
+    .box_un {
+        width: 480px;
+        margin: 0px;
+        padding: 0px;
+        background-color: white;
     }
-    @media screen and (max-width: 480px) {
-        #elt-0 {
-            width: 150px;
-            text-align: center;
-            border-top: none;
-            border-bottom: 2px solid #0065FC;
-            margin: 0px 50px 0px 5px;
-            color: #0065FC;
-        }
-        .aheadLogo {
-            order: 0;
-        }
-        .aheadNaving {
-            display: flex;
-            justify-content: flex-start;
-            width: 432px;
-            height: auto;
-            order: 1;
-        }
-        .aheadSign {
-            order: 0;
-            margin: 0px 0px 0px 100px;
-        }
-        .aheadNav {
-            order: 1;
-            margin: 0px 0px 0px -100px;
-        }
-        .awesomeInfo-i {
-            height: 2rem;
-            width: 2rem;
-            min-height: 2rem;
-            min-width: 2rem;
-            border: solid 3px #F2F2F2;
-            border-radius: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: -8px 0px 0px 0px;
-        }
-        .awesomeInfo-i-Image {
-            color: #0065FC;
-        }
-        .awesomeInfoText {
-            margin: 0px 11px;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        .searchReserviaTexte {
-            display: none;
-        }
-        .bloc_page,
-        nav {
-            width: 480px;
-            margin: 0px 0px;
-        }
-        body {
-            max-width: 480px;
-        }
-        main {
-            width: 480px;
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column-reverse;
-            /* justify-content: space-between; */
-        }
-        .box_un {
-            width: 480px;
-            margin: 0px;
-            padding: 0px;
-            background-color: white;
-        }
-        .box_deux {
-            width: 533px;
-            margin: 0px 0px 0px -29px;
-            padding: 0px;
-            background-color: #F2F2F2;
-            border-radius: 0px 0px 0px 0px;
-            -webkit-border-radius: 0px 0px 0px 0px;
-            -moz-border-radius: 0px 0px 0px 0px;
-            -ms-border-radius: 0px 0px 0px 0px;
-            -o-border-radius: 0px 0px 0px 0px;
-        }
-        .ligne-deux {
-            width: 100%;
-            /* margin: 0px auto; */
-            /* align-items: flex-end; */
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            /* justify-content: flex-end; */
-        }
-        .card-hebergements {
-            width: 100%;
-            height: 180px;
-        }
-        .card-populaires {
-            width: 87%;
-            height: 180px;
-            display: flex;
-            flex-wrap: wrap;
-            padding: 5px;
-            margin: 20px 20px 20px 20px;
-            background-color: white;
-            border-radius: 20px 20px 20px 20px;
-            text-decoration: none;
-            color: black;
-        }
-        .card-populaires img {
-            /* width: 40%; */
-            width: 170px;
-            height: 100%;
-            border-radius: 20px 0px 0px 20px;
-        }
-        .card_first,
-        .card_third {
-            width: 100%;
-            height: 200px;
-            padding-bottom: 10px;
-            margin-bottom: 10px;
-        }
-        .card_second,
-        .card_fourth {
-            width: 100%;
-            height: 100%;
-            /* height: auto; */
-        }
-        .second_one img {
-            height: 150px;
-            width: 100%;
-        }
-        .second_two img {
-            height: 160px;
-            width: 100%;
-        }
-        .fourth_one img,
-        .fourth_two img {
-            height: 150px;
-            width: 100%;
-        }
-        .footer {
-            display: block;
-        }
-        .card_activity {
-            max-width: 480px;
-            height: auto;
-        }
-        .p2marseille {
-            line-height: auto;
-            font-size: 18px;
-            font-weight: bold;
-            margin: 10px 0px 10px 15px;
-            color: black;
-        }
-        p span {
-            font-size: 22px;
-            font-weight: bold;
-            margin: 0px 0px 0px 171px;
-        }
-        .p3bis {
-            line-height: auto;
-            font-size: 24px;
-            font-weight: bold;
-            margin: 40px 11px 0px 30px
-        }
+    
+    .box_deux {
+        width: 533px;
+        margin: 0px 0px 0px -29px;
+        padding: 0px;
+        background-color: #F2F2F2;
+        border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        -moz-border-radius: 0px 0px 0px 0px;
+        -ms-border-radius: 0px 0px 0px 0px;
+        -o-border-radius: 0px 0px 0px 0px;
     }
+    
+    .ligne-deux {
+        width: 100%;
+        /* margin: 0px auto; */
+        /* align-items: flex-end; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        /* justify-content: flex-end; */
+    }
+    
+    .card-hebergements {
+        width: 100%;
+        height: 180px;
+    }
+    
+    .card-populaires {
+        width: 87%;
+        height: 180px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        margin: 20px 20px 20px 20px;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .card-populaires img {
+        /* width: 40%; */
+        width: 170px;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+    
+    .card_first,
+    .card_third {
+        width: 100%;
+        height: 200px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .card_second,
+    .card_fourth {
+        width: 100%;
+        height: 100%;
+        /* height: auto; */
+    }
+    
+    .second_one img {
+        height: 150px;
+        width: 100%;
+    }
+    
+    .second_two img {
+        height: 160px;
+        width: 100%;
+    }
+    
+    .fourth_one img,
+    .fourth_two img {
+        height: 150px;
+        width: 100%;
+    }
+    
+    .footer {
+        display: block;
+    }
+    
+    .card_activity {
+        max-width: 480px;
+        height: auto;
+    }
+    
+    .p2marseille {
+        line-height: auto;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 0px 10px 15px;
+        color: black;
+    }
+    
+    p span {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 0px 0px 0px 171px;
+    }
+    
+    .p3bis {
+        line-height: auto;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 40px 11px 0px 30px
+    }
+}
