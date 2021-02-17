@@ -1,5 +1,5 @@
             body {
-                width: 1600px;
+                width: 100%;
                 height: auto;
                 margin: 0px auto;
                 font-family: "ralewayregular", "Sans serif";
@@ -32,6 +32,7 @@
             
             .box_un {
                 display: flex;
+                flex-wrap: wrap;
                 flex-direction: column;
                 background-color: #F2F2F2;
                 width: 58%;
@@ -41,6 +42,7 @@
             
             .box_deux {
                 display: flex;
+                flex-wrap: wrap;
                 flex-direction: column;
                 background-color: #F2F2F2;
                 width: 39%;
@@ -105,12 +107,14 @@
             }
             
             #elt-a {
+                display: inline-block;
                 background-color: #F2F2F2;
                 border-radius: 20px 0px 0px 20px;
                 padding: 0px 20px 0px 10px;
             }
             
             #elt-b {
+                display: inline-block;
                 padding: 0px 0px 0px 20px;
                 border: 3px solid#F2F2F2;
             }
@@ -121,6 +125,7 @@
             }
             
             #elt-c {
+                display: inline-block;
                 padding: 0px 10px 0px 10px;
                 border-radius: 0px 20px 20px 0px;
                 background-color: #0065FC;
@@ -184,10 +189,6 @@
                 height: 40px;
                 display: table;
                 border-radius: 50%;
-                -webkit-border-radius: ;
-                -moz-border-radius: ;
-                -ms-border-radius: ;
-                -o-border-radius: ;
             }
             
             #moncercle-i {
@@ -247,8 +248,8 @@
             
             .card-hebergements {
                 color: black;
-                width: 26.1%;
-                height: 38%;
+                width: 23.1%;
+                height: 48%;
                 /* height: 185px; */
                 padding: 5px;
                 margin: 20px;
@@ -261,6 +262,7 @@
             .card-hebergements img {
                 width: 99%;
                 height: 110px;
+                object-fit: cover;
                 border-radius: 20px 20px 0px 0px;
                 -webkit-border-radius: 20px 20px 0px 0px;
                 -moz-border-radius: 20px 20px 0px 0px;
@@ -281,7 +283,7 @@
             
             .card-populaires {
                 width: 86%;
-                height: 18%;
+                height: 20%;
                 display: flex;
                 padding: 5px;
                 margin: 20px 0px 33px 29px;
@@ -702,6 +704,7 @@
             .fourth_two img {
                 width: 99%;
                 height: 73%;
+                object-fit: cover;
                 border-radius: 20px 20px 0px 0px;
                 -webkit-border-radius: 20px 20px 0px 0px;
                 -moz-border-radius: 20px 20px 0px 0px;
@@ -765,8 +768,6 @@
                 margin: 0px 120px 0px 0px;
             }
             /* On screens that are 1281px wide or less, go from four columns to two columns */
-            
-            @media screen and (max-width: 1281px) {}
             
             @media screen and (max-width: 960px) {
                 /* main {
