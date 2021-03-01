@@ -1,1142 +1,1100 @@
-                                            body {
-                                                width: 100%;
-                                                margin: 47px auto;
-                                                font-family: "ralewayregular", "Sans serif";
-                                                font-size: 16px;
-                                            }
-                                            
-                                            .container {
-                                                padding: 0px 1.5rem;
-                                                width: 100%;
-                                                margin: 0px auto;
-                                                height: auto;
-                                                box-sizing: border-box;
-                                                background-color: white;
-                                            }
-                                            
-                                            .footer {
-                                                max-width: 100%;
-                                                margin: 0px auto;
-                                                background-color: #F2F2F2;
-                                                display: flex;
-                                                flex-wrap: wrap;
-                                                justify-content: flex-start;
-                                            }
-                                            
-                                            nav {
-                                                width: 100%;
-                                                height: auto;
-                                                /* height: 400px; */
-                                                padding: 20px;
-                                                display: flex;
-                                                flex-direction: column;
-                                                justify-content: space-between;
-                                                margin-bottom: 40px;
-                                                box-sizing: border-box;
-                                                background-color: white;
-                                            }
-                                            
-                                            #sign {
-                                                color: #0065FC
-                                            }
-                                            /* reation du navigateur principal  */
-                                            
-                                            .heading {
-                                                width: 100%;
-                                                height: 3rem;
-                                                display: flex;
-                                                justify-content: flex-end;
-                                                /* margin-left: 40px; */
-                                            }
-                                            
-                                            .part {
-                                                width: auto;
-                                                display: flex;
-                                                justify-content: flex-end;
-                                                margin-right: 10px;
-                                            }
-                                            
-                                            #hebergement {
-                                                width: 110px;
-                                                height: 35px;
-                                                color: #0065FC;
-                                                margin-top: -48px;
-                                                margin-right: 65px;
-                                                padding-top: 44px;
-                                                padding-left: 15px;
-                                                border-top: 4px solid #0065FC;
-                                            }
-                                            
-                                            .elt {
-                                                width: 69px;
-                                                height: 80px;
-                                                margin-right: 54px;
-                                            }
-                                            
-                                            .elt img {
-                                                width: auto;
-                                                height: 50px;
-                                                margin-top: -6px;
-                                                margin-left: 30px;
-                                            }
-                                            
-                                            .part:nth-child(1) {
-                                                width: 100%;
-                                                display: flex;
-                                                justify-content: flex-start;
-                                            }
-                                            
-                                            main {
-                                                width: 100%;
-                                                display: flex;
-                                                flex-wrap: wrap;
-                                                justify-content: space-between;
-                                            }
-                                            
-                                            .box_un,
-                                            .box_deux {
-                                                height: auto;
-                                                display: flex;
-                                                flex-direction: column;
-                                                border-radius: 20px 20px 20px 20px;
-                                                background-color: #F2F2F2;
-                                                margin-bottom: 40px;
-                                            }
-                                            
-                                            .box_un {
-                                                width: 64%;
-                                            }
-                                            
-                                            .box_deux {
-                                                width: 33%;
-                                            }
-                                            
-                                            .ligne-zero {
-                                                width: 82%;
-                                                height: 3rem;
-                                                display: flex;
-                                                justify-content: space-between;
-                                                align-items: center;
-                                                margin-top: 30px;
-                                                margin-left: 40px;
-                                            }
-                                            
-                                            .ligne-zero-text {
-                                                display: inline-block;
-                                                font-weight: bold;
-                                            }
-                                            
-                                            .ligne-zero-icon {
-                                                display: inline-block;
-                                                font-size: 1.2rem;
-                                                font-weight: bold;
-                                            }
-                                            
-                                            .card-1 {
-                                                max-width: 98%;
-                                                width: 45%;
-                                                height: 40px;
-                                                display: flex;
-                                                flex-direction: row;
-                                                justify-content: flex-start;
-                                                align-items: center;
-                                            }
-                                            
-                                            #elt-a {
-                                                height: 2rem;
-                                                min-width: 3rem;
-                                                font-size: 16px;
-                                                display: flex;
-                                                align-items: center;
-                                                justify-content: center;
-                                                background-color: #F2F2F2;
-                                                border-radius: 20px 0px 0px 20px;
-                                                -webkit-border-radius: 20px 0px 0px 20px;
-                                                -moz-border-radius: 20px 0px 0px 20px;
-                                                -ms-border-radius: 20px 0px 0px 20px;
-                                                -o-border-radius: 20px 0px 0px 20px;
-                                            }
-                                            
-                                            #elt-b {
-                                                height: 1.65rem;
-                                                display: flex;
-                                                align-items: center;
-                                                justify-content: center;
-                                                border: 3px solid#F2F2F2;
-                                            }
-                                            
-                                            #elt-c {
-                                                height: 2rem;
-                                                width: 130px;
-                                                display: flex;
-                                                align-items: center;
-                                                justify-content: center;
-                                                border-radius: 0px 20px 20px 0px;
-                                                background-color: #0065FC;
-                                                padding: 0px 20px 0px 20px;
-                                                color: white;
-                                                font-size: 14px;
-                                            }
-                                            
-                                            #elt-c i {
-                                                display: none;
-                                            }
-                                            /* #elt-c .fas {
-font-size: 25px;
-margin-top: 15px;
-} */
-                                            
-                                            input {
-                                                width: 11rem;
-                                                cursor: pointer;
-                                                border: none;
-                                                margin-left: 10px;
-                                            }
-                                            
-                                            .container:after {
-                                                overflow: hidden;
-                                                content: "";
-                                                display: table;
-                                                clear: both;
-                                            }
-                                            
-                                            .textFlex {
-                                                width: 98%;
-                                                height: 100px;
-                                                display: flex;
-                                                flex-direction: column;
-                                                justify-content: space-evenly;
-                                                margin-bottom: 20px;
-                                            }
-                                            
-                                            #card-2 {
-                                                margin: 30px 21px 0px 5px;
-                                                width: auto;
-                                                height: 38px;
-                                                display: table;
-                                                text-align: center;
-                                                border-radius: 30px 30px 30px 30px;
-                                                display: flex;
-                                                flex-wrap: nowrap;
-                                                justify-content: auto;
-                                                border: 3px solid #F2F2F2;
-                                            }
-                                            
-                                            #card-3 {
-                                                margin: 30px 10px 0px 0px;
-                                                text-align: left;
-                                                padding: 0px 0.5em 0 0.5em;
-                                                margin: right;
-                                            }
-                                            
-                                            #card-4 {
-                                                display: flex;
-                                                margin: 10px 10px 0px -5px;
-                                            }
-                                            
-                                            #moncercle {
-                                                margin: -3px;
-                                                background: #DEEBFF;
-                                                justify-content: center;
-                                                width: 40px;
-                                                height: 40px;
-                                                display: table;
-                                                border-radius: 50%;
-                                            }
-                                            
-                                            #moncercle-i {
-                                                justify-content: center;
-                                                border-radius: 50%;
-                                                width: 40px;
-                                                height: 40px;
-                                                display: table;
-                                                -webkit-border-radius: 50%;
-                                                -moz-border-radius: 50%;
-                                                -ms-border-radius: 50%;
-                                                -o-border-radius: 50%;
-                                            }
-                                            
-                                            #moncercle span {
-                                                display: table-cell;
-                                                vertical-align: middle;
-                                            }
-                                            
-                                            #logo_filter {
-                                                color: #0065FC;
-                                            }
-                                            
-                                            #logo_filter_i {
-                                                color: black;
-                                            }
-                                            
-                                            #logo_filter_bis {
-                                                color: #F2F2F2;
-                                            }
-                                            
-                                            .montableau {
-                                                width: 100%;
-                                                height: auto;
-                                                display: flex;
-                                                flex-wrap: wrap;
-                                                justify-content: flex-start;
-                                            }
-                                            
-                                            #elt-e {
-                                                padding: 0px 1em 0 2em;
-                                                height: 30px;
-                                                display: table;
-                                                border-radius: 0px 30px 30px 0px;
-                                                -webkit-border-radius: 0px 30px 30px 0px;
-                                                -moz-border-radius: 0px 30px 30px 0px;
-                                                -ms-border-radius: 0px 30px 30px 0px;
-                                                -o-border-radius: 0px 30px 30px 0px;
-                                            }
-                                            
-                                            .ligne-une,
-                                            .ligne-deux {
-                                                width: 100%;
-                                                height: auto;
-                                                display: flex;
-                                                flex-wrap: wrap;
-                                                flex-direction: row;
-                                                /* margin: 0px auto; */
-                                                justify-content: space-evenly;
-                                            }
-                                            
-                                            .card-hebergements {
-                                                color: black;
-                                                width: 27%;
-                                                height: auto;
-                                                box-shadow: 1px 1px 12px #f2f2f2;
-                                                padding: 5px;
-                                                margin: 20px;
-                                                object-fit: cover;
-                                                background-color: white;
-                                                border-radius: 20px 20px 20px 20px;
-                                                overflow: hidden;
-                                                text-decoration: none;
-                                            }
-                                            
-                                            .card-hebergements img {
-                                                width: 99%;
-                                                height: 110px;
-                                                object-fit: cover;
-                                                border-radius: 20px 20px 0px 0px;
-                                                -webkit-border-radius: 20px 20px 0px 0px;
-                                                -moz-border-radius: 20px 20px 0px 0px;
-                                                -ms-border-radius: 20px 20px 0px 0px;
-                                                -o-border-radius: 20px 20px 0px 0px;
-                                            }
-                                            
-                                            .ligne-botton {
-                                                display: flex;
-                                                flex-wrap: wrap;
-                                            }
-                                            
-                                            .card-populaires {
-                                                width: 80%;
-                                                height: 25%;
-                                                display: flex;
-                                                flex-direction: row;
-                                                padding: 5px;
-                                                margin: 15px;
-                                                background-color: white;
-                                                border-radius: 20px 20px 20px 20px;
-                                                text-decoration: none;
-                                                color: black;
-                                            }
-                                            
-                                            .divImg {
-                                                width: 45%;
-                                            }
-                                            
-                                            .card-populaires img {
-                                                width: 95%;
-                                                height: 100%;
-                                                object-fit: cover;
-                                                border-radius: 20px 0px 0px 20px;
-                                                -webkit-border-radius: 20px 0px 0px 20px;
-                                                -moz-border-radius: 20px 0px 0px 20px;
-                                                -ms-border-radius: 20px 0px 0px 20px;
-                                                -o-border-radius: 20px 0px 0px 20px;
-                                            }
-                                            
-                                            .divleft {
-                                                display: flex;
-                                                flex-direction: column;
-                                                /* height: 50px; */
-                                            }
-                                            
-                                            .divleftTop {
-                                                margin: 0px 0px;
-                                                display: flex;
-                                                flex-direction: column;
-                                                justify-content: space-between;
-                                            }
-                                            
-                                            .p2bis {
-                                                margin: 5px 0px 0px 0px;
-                                                font-size: 12px;
-                                            }
-                                            
-                                            .p2ter {
-                                                margin: 5px 0px 0px 15px;
-                                                font-size: 12px;
-                                            }
-                                            
-                                            .p2left {
-                                                line-height: auto;
-                                                font-size: 14px;
-                                                font-weight: bold;
-                                                margin: 5px 0px;
-                                            }
-                                            
-                                            .p2leftBis {
-                                                font-size: 0.6rem;
-                                                color: rgba(0, 0, 0, 0.411);
-                                            }
-                                            
-                                            .p2leftBis span {
-                                                font-size: 16px;
-                                            }
-                                            
-                                            .divright {
-                                                width: 52%;
-                                                height: auto;
-                                                display: flex;
-                                                flex-direction: column;
-                                                justify-content: space-between;
-                                            }
-                                            
-                                            .rightDivTop {
-                                                display: flex;
-                                                flex-direction: column;
-                                                justify-content: flex-start;
-                                                width: 85%;
-                                                height: auto;
-                                                margin: 0px 0px 0px 15px;
-                                            }
-                                            
-                                            .p0 {
-                                                line-height: 4px;
-                                                font-size: 15px;
-                                                margin: 15px 20px 10px 20px;
-                                            }
-                                            
-                                            .p0Filtre {
-                                                line-height: 4px;
-                                                font-size: 1.3em;
-                                                font-weight: bolder;
-                                            }
-                                            
-                                            .p0Nav {
-                                                width: auto;
-                                                display: inline;
-                                                line-height: 4px;
-                                                font-size: 1.3rem;
-                                                font-weight: bolder;
-                                                align-content: center;
-                                                margin: auto 0.8rem;
-                                            }
-                                            
-                                            .p0Nav-animaux {
-                                                min-width: 178px;
-                                                width: auto;
-                                                height: auto;
-                                                display: flex;
-                                                flex-wrap: nowrap;
-                                                font-size: 1.3rem;
-                                                font-weight: bolder;
-                                                align-content: center;
-                                                margin: auto 0.8rem;
-                                            }
-                                            
-                                            .p1 {
-                                                line-height: 4px;
-                                                font-size: 15px;
-                                            }
-                                            
-                                             ::placeholder {
-                                                color: black;
-                                                line-height: auto;
-                                                font-size: 18px;
-                                                font-weight: bold;
-                                            }
-                                            
-                                            .p24Bold {
-                                                line-height: auto;
-                                                font-size: 24px;
-                                                font-weight: bold;
-                                            }
-                                            
-                                            .p2Activity {
-                                                line-height: auto;
-                                                font-size: 24px;
-                                                font-weight: bold;
-                                                margin-top: 50px;
-                                            }
-                                            /* .p2Hebergement {
-font-size: 16px;
-font-weight: bold;
-margin-left: 20px;
-} */
-                                            
-                                            .titleHeight {
-                                                height: 30px;
-                                                font-size: 20px;
-                                                font-weight: bold;
-                                                /* margin-left: 3rem; */
-                                            }
-                                            
-                                            .titleHeight_2 {
-                                                font-size: 18px;
-                                                font-weight: bold;
-                                                margin-left: 3rem;
-                                            }
-                                            
-                                            .p2marseille {
-                                                height: 40px;
-                                                font-weight: bold;
-                                                margin: auto 30px;
-                                                /* margin: 10px 0px 0px 15px; */
-                                                color: black;
-                                            }
-                                            /* p span {
-font-size: 22px;
-font-weight: bold;
-margin: 0px 0px 0px 132px;
-} */
-                                            /* #elt-a span {
-margin-left: 50px;
-font-size: 22px;
-font-weight: bold;
-margin: 0px 0px 0px 20px;
-} */
-                                            
-                                            .p2left-word {
-                                                line-height: auto;
-                                                font-size: 12px;
-                                            }
-                                            
-                                            .p4 {
-                                                margin: 10px 0px 0px 10px;
-                                                padding-bottom: 0
-                                            }
-                                            
-                                            .p5 {
-                                                margin: 15px 15px 15px 15px;
-                                                padding: 10
-                                            }
-                                            
-                                            @font-face {
-                                                font-family: 'ralewayregular';
-                                                src: url('font/raleway-regular-webfont.woff2') format('woff2'), url('font/raleway-regular-webfont.woff') format('woff');
-                                                font-weight: normal;
-                                                font-style: normal;
-                                            }
-                                            
-                                            .card-bottom {
-                                                /* border: 1px solid red; */
-                                                padding: 10px;
-                                                margin: 15px;
-                                                height: 450px;
-                                                width: 250;
-                                                background-color: white;
-                                                border-radius: 30px 30px 30px 30px;
-                                                -moz-border-radius: 30px 30px 30px 30px;
-                                                -ms-border-radius: 30px 30px 30px 30px;
-                                                -o-border-radius: 30px 30px 30px 30px;
-                                                -webkit-border-radius: 30px 30px 30px 30px;
-                                            }
-                                            
-                                            .card-bottom-un {
-                                                padding: 10px;
-                                                margin: 15px;
-                                                height: 200px;
-                                                width: 250px;
-                                                background-color: white;
-                                                border-radius: 30px 30px 30px 30px;
-                                                -moz-border-radius: 30px 30px 30px 30px;
-                                                -ms-border-radius: 30px 30px 30px 30px;
-                                                -o-border-radius: 30px 30px 30px 30px;
-                                                -webkit-border-radius: 30px 30px 30px 30px;
-                                            }
-                                            
-                                            .card-bottom-deux {
-                                                padding: 10px;
-                                                margin: 15px;
-                                                height: 180px;
-                                                width: 250px;
-                                                background-color: white;
-                                                border-radius: 30px 30px 30px 30px;
-                                                -moz-border-radius: 30px 30px 30px 30px;
-                                                -ms-border-radius: 30px 30px 30px 30px;
-                                                -o-border-radius: 30px 30px 30px 30px;
-                                                -webkit-border-radius: 30px 30px 30px 30px;
-                                            }
-                                            
-                                            .card-bottom img {
-                                                border-radius: 30px 30px 0px 0px;
-                                                width: 300px;
-                                                height: 400px;
-                                                object-fit: cover;
-                                                -webkit-border-radius: 30px 30px 0px 0px;
-                                                -moz-border-radius: 30px 30px 0px 0px;
-                                                -ms-border-radius: 30px 30px 0px 0px;
-                                                -o-border-radius: 30px 30px 0px 0px;
-                                            }
-                                            
-                                            .card-bottom-un img {
-                                                border-radius: 30px 30px 0px 0px;
-                                                width: 300px;
-                                                height: 220px;
-                                                object-fit: cover;
-                                                -webkit-border-radius: 30px 30px 0px 0px;
-                                                -moz-border-radius: 30px 30px 0px 0px;
-                                                -ms-border-radius: 30px 30px 0px 0px;
-                                                -o-border-radius: 30px 30px 0px 0px;
-                                            }
-                                            
-                                            .imgdeux img {
-                                                border-radius: 30px 30px 0px 0px;
-                                                width: 300px;
-                                                height: 150px;
-                                                object-fit: cover;
-                                                -webkit-border-radius: 30px 30px 0px 0px;
-                                                -moz-border-radius: 30px 30px 0px 0px;
-                                                -ms-border-radius: 30px 30px 0px 0px;
-                                                -o-border-radius: 30px 30px 0px 0px;
-                                            }
-                                            
-                                            .card-bottom-deux img {
-                                                border-radius: 30px 30px 0px 0px;
-                                                width: 300px;
-                                                height: 180px;
-                                                object-fit: cover;
-                                                -webkit-border-radius: 30px 30px 0px 0px;
-                                                -moz-border-radius: 30px 30px 0px 0px;
-                                                -ms-border-radius: 30px 30px 0px 0px;
-                                                -o-border-radius: 30px 30px 0px 0px;
-                                            }
-                                            
-                                            .box_bottom {
-                                                padding: 10px;
-                                                background-color: #F2F2F2;
-                                                margin: 10px 10px 10px 10px;
-                                                width: auto;
-                                                border-radius: 30px 30px 30px 30px;
-                                            }
-                                            
-                                            .card_activity {
-                                                width: 100%;
-                                                height: auto;
-                                                display: flex;
-                                                flex-wrap: wrap;
-                                                justify-content: space-between;
-                                                align-items: center;
-                                                margin: auto;
-                                                margin-bottom: 20px;
-                                            }
-                                            
-                                            .card_first,
-                                            .card_third {
-                                                width: 23%;
-                                                height: 430px;
-                                                display: flex;
-                                                flex-wrap: wrap;
-                                                justify-content: space-between;
-                                                align-items: center;
-                                            }
-                                            
-                                            .first,
-                                            .third {
-                                                color: black;
-                                                display: flex;
-                                                flex-direction: column;
-                                                border-radius: 20px 20px 20px 20px;
-                                                width: 100%;
-                                                height: 100%;
-                                                -webkit-border-radius: 20px 20px 20px 20px;
-                                                -moz-border-radius: 20px 20px 20px 20px;
-                                                -ms-border-radius: 20px 20px 20px 20px;
-                                                -o-border-radius: 20px 20px 20px 20px;
-                                                box-shadow: 1px 1px 12px #F2F2F2;
-                                                text-decoration: none;
-                                            }
-                                            
-                                            .third img,
-                                            .first img {
-                                                width: 100%;
-                                                height: 88%;
-                                                object-fit: cover;
-                                                border-radius: 20px 20px 0px 0px;
-                                                -webkit-border-radius: 20px 20px 0px 0px;
-                                                -moz-border-radius: 20px 20px 0px 0px;
-                                                -ms-border-radius: 20px 20px 0px 0px;
-                                                -o-border-radius: 20px 20px 0px 0px;
-                                            }
-                                            
-                                            .card_second {
-                                                width: 23%;
-                                                height: 430px;
-                                                display: flex;
-                                                flex-direction: column;
-                                                justify-content: space-between;
-                                            }
-                                            
-                                            .second_one {
-                                                width: 100%;
-                                                height: 250px;
-                                                color: black;
-                                                display: flex;
-                                                flex-direction: column;
-                                                box-shadow: 1px 1px 12px #F2F2F2;
-                                                border-radius: 30px 30px 30px 30px;
-                                                padding: 0px -5px 0px 0px;
-                                                text-decoration: none;
-                                            }
-                                            
-                                            .second_two {
-                                                width: 100%;
-                                                height: 150px;
-                                                color: black;
-                                                display: flex;
-                                                flex-direction: column;
-                                                align-content: flex-end;
-                                                box-shadow: 1px 1px 12px #F2F2F2;
-                                                border-radius: 30px 30px 30px 30px;
-                                                -webkit-border-radius: 30px 30px 30px 30px;
-                                                -moz-border-radius: 30px 30px 30px 30px;
-                                                -ms-border-radius: 30px 30px 30px 30px;
-                                                -o-border-radius: 30px 30px 30px 30px;
-                                                text-decoration: none;
-                                            }
-                                            
-                                            .second_one img {
-                                                width: 100%;
-                                                height: 80%;
-                                                object-fit: cover;
-                                                border-radius: 20px 20px 0px 0px;
-                                                -webkit-border-radius: 20px 20px 0px 0px;
-                                                -moz-border-radius: 20px 20px 0px 0px;
-                                                -ms-border-radius: 20px 20px 0px 0px;
-                                                -o-border-radius: 20px 20px 0px 0px;
-                                            }
-                                            
-                                            .second_two img {
-                                                height: 65%;
-                                                width: 100%;
-                                                object-fit: cover;
-                                                border-radius: 20px 20px 0px 0px;
-                                                -webkit-border-radius: 20px 20px 0px 0px;
-                                                -moz-border-radius: 20px 20px 0px 0px;
-                                                -ms-border-radius: 20px 20px 0px 0px;
-                                                -o-border-radius: 20px 20px 0px 0px;
-                                            }
-                                            
-                                            .card_fourth {
-                                                width: 23%;
-                                                height: 430px;
-                                                display: flex;
-                                                flex-direction: column;
-                                                justify-content: space-between;
-                                            }
-                                            
-                                            .fourth_one,
-                                            .fourth_two {
-                                                display: flex;
-                                                flex-direction: column;
-                                                align-content: flex-end;
-                                                width: 100%;
-                                                height: 47%;
-                                                box-shadow: 1px 1px 12px #F2F2F2;
-                                                border-radius: 20px 20px 20px 20px;
-                                                text-decoration: none;
-                                                -webkit-border-radius: 20px 20px 20px 20px;
-                                                -moz-border-radius: 20px 20px 20px 20px;
-                                                -ms-border-radius: 20px 20px 20px 20px;
-                                                -o-border-radius: 20px 20px 20px 20px;
-                                            }
-                                            
-                                            .fourth_one img,
-                                            .fourth_two img {
-                                                width: 99%;
-                                                height: 73%;
-                                                object-fit: cover;
-                                                border-radius: 20px 20px 0px 0px;
-                                                -webkit-border-radius: 20px 20px 0px 0px;
-                                                -moz-border-radius: 20px 20px 0px 0px;
-                                                -ms-border-radius: 20px 20px 0px 0px;
-                                                -o-border-radius: 20px 20px 0px 0px;
-                                            }
-                                            
-                                            .elmt_3-0 {
-                                                display: flex;
-                                                justify-content: space-between;
-                                                box-shadow: 1px 1px 12px #F2F2F2;
-                                                width: 96%;
-                                                height: 90%;
-                                                border-radius: 20px 20px;
-                                                -webkit-border-radius: 20px 20px;
-                                                -moz-border-radius: 20px 20px;
-                                                -ms-border-radius: 20px 20px;
-                                                -o-border-radius: 20px 20px;
-                                            }
-                                            /* .awesome {
-display: flex;
-align-items: center;
-width: 100%;
-height: 4rem;
-} */
-                                            
-                                            .awesomeInfo {
-                                                width: auto;
-                                                display: flex;
-                                                justify-content: flex-start;
-                                                align-items: center;
-                                            }
-                                            
-                                            .awesomeInfo-i {
-                                                height: 1.5rem;
-                                                width: 1.5rem;
-                                                border: solid 2px #F2F2F2;
-                                                border-radius: 100%;
-                                                display: flex;
-                                                align-items: center;
-                                                justify-content: center;
-                                                margin-right: 1rem;
-                                            }
-                                            
-                                            .awesomeInfo-i-Image {
-                                                color: #0065FC;
-                                                font-size: 12px;
-                                            }
-                                            
-                                            .footer_assistance,
-                                            .footer_hebergement,
-                                            .footer_propos {
-                                                display: flex;
-                                                flex-direction: column;
-                                                padding: 10px 86px;
-                                                margin: 0px 120px 0px 0px;
-                                            }
-                                            /* On screens that are 1281px wide or less, go from four columns to two columns */
-                                            
-                                            @media screen and (max-width: 1281px) {
-                                                main {
-                                                    width: 100%;
-                                                    display: flex;
-                                                    flex-direction: column-reverse;
-                                                }
-                                                .ligne-zero {
-                                                    width: 90%;
-                                                }
-                                                .ligne-deux {
-                                                    width: 100%;
-                                                    height: auto;
-                                                    display: flex;
-                                                    flex-wrap: wrap;
-                                                    flex-direction: row;
-                                                    margin: 0px auto;
-                                                    justify-content: space-evenly;
-                                                }
-                                                .box_un {
-                                                    width: 100%;
-                                                    flex-wrap: nowrap;
-                                                }
-                                                .box_deux {
-                                                    width: 100%;
-                                                    flex-direction: row;
-                                                    flex-wrap: wrap;
-                                                }
-                                                .card-populaires {
-                                                    color: black;
-                                                    width: 24.6%;
-                                                    height: auto;
-                                                    flex-direction: column;
-                                                    padding: 5px;
-                                                    margin: 20px;
-                                                    background-color: white;
-                                                    border-radius: 20px 20px 20px 20px;
-                                                    overflow: hidden;
-                                                    text-decoration: none;
-                                                }
-                                                .card-populaires img {
-                                                    width: 99%;
-                                                    height: 110px;
-                                                    object-fit: cover;
-                                                    border-radius: 20px 20px 0px 0px;
-                                                    -webkit-border-radius: 20px 20px 0px 0px;
-                                                    -moz-border-radius: 20px 20px 0px 0px;
-                                                    -ms-border-radius: 20px 20px 0px 0px;
-                                                    -o-border-radius: 20px 20px 0px 0px;
-                                                }
-                                                .divImg,
-                                                .divright {
-                                                    width: 100%;
-                                                }
-                                                /* Fin reation du navigateur principal  */
-                                                /* Fin reation du navigateur principal  */
-                                            }
-                                            /* @media screen and (max-width: 1281px) {} */
-                                            
-                                            @media screen and (max-width: 960px) {
-                                                main {
-                                                    width: 100%;
-                                                    display: flex;
-                                                    flex-direction: column-reverse;
-                                                }
-                                                .ligne-deux {
-                                                    width: 100%;
-                                                    height: auto;
-                                                    display: flex;
-                                                    flex-wrap: wrap;
-                                                    flex-direction: row;
-                                                    margin: 0px auto;
-                                                    justify-content: space-evenly;
-                                                }
-                                                .box_un {
-                                                    width: 100%;
-                                                    flex-wrap: nowrap;
-                                                }
-                                                .box_deux {
-                                                    width: 100%;
-                                                    flex-direction: row;
-                                                    flex-wrap: wrap;
-                                                }
-                                                .card-populaires {
-                                                    color: black;
-                                                    width: 24.6%;
-                                                    height: auto;
-                                                    flex-direction: column;
-                                                    padding: 5px;
-                                                    margin: 20px;
-                                                    background-color: white;
-                                                    border-radius: 20px 20px 20px 20px;
-                                                    overflow: hidden;
-                                                    text-decoration: none;
-                                                }
-                                                .card-populaires img {
-                                                    width: 99%;
-                                                    height: 110px;
-                                                    object-fit: cover;
-                                                    border-radius: 20px 20px 0px 0px;
-                                                    -webkit-border-radius: 20px 20px 0px 0px;
-                                                    -moz-border-radius: 20px 20px 0px 0px;
-                                                    -ms-border-radius: 20px 20px 0px 0px;
-                                                    -o-border-radius: 20px 20px 0px 0px;
-                                                }
-                                                .card_first,
-                                                .card_third {
-                                                    width: 46%;
-                                                    /* height: 390px; */
-                                                    /* margin-bottom: 40px; */
-                                                }
-                                                /*     .first img,
-    .third img {
+    body {
         width: 100%;
-        height: 87%;
-    }*/
-                                                .card_second {
-                                                    width: 46%;
-                                                    /* height: 390px; */
-                                                }
-                                                .card_fourth {
-                                                    width: 46%;
-                                                }
-                                            }
-                                            
-                                            @media screen and (max-width: 620px) {
-                                                body {
-                                                    max-width: 620px;
-                                                    width: 500px;
-                                                    ;
-                                                }
-                                                .nav,
-                                                .heading {
-                                                    width: 100%;
-                                                }
-                                                .part {
-                                                    /* width: 100%; */
-                                                    display: flex;
-                                                    justify-content: flex-end;
-                                                }
-                                                #hebergement {
-                                                    width: 110px;
-                                                    height: 35px;
-                                                    color: #0065FC;
-                                                    border-top: none;
-                                                    margin-right: 23px;
-                                                }
-                                                .elt {
-                                                    width: 4rem;
-                                                    height: 0.5rem;
-                                                }
-                                                .elt img {
-                                                    margin-top: 3px;
-                                                }
-                                                .part:nth-child(1) {
-                                                    display: flex;
-                                                    justify-content: flex-start;
-                                                    width: 100%;
-                                                }
-                                                .part:nth-child(2) {
-                                                    width: 100%;
-                                                    order: 3;
-                                                    padding-top: 10%;
-                                                    display: flex;
-                                                    justify-content: space-around;
-                                                }
-                                                .part:nth-child(3) {
-                                                    order: 2;
-                                                }
-                                                .heading {
-                                                    width: 100%;
-                                                    height: 150px;
-                                                    flex-wrap: wrap;
-                                                }
-                                                .trait {
-                                                    width: 100%;
-                                                    display: flex;
-                                                    margin-top: -20px;
-                                                }
-                                                .trait-gauche {
-                                                    width: 49.5%;
-                                                    border: 1px solid#0065FC;
-                                                }
-                                                .trait-droit {
-                                                    width: 49.5%;
-                                                    margin-right: -20px;
-                                                    border: 1px solid #F2F2F2;
-                                                }
-                                                .p0Filtre {
-                                                    margin: 0px 0px;
-                                                    line-height: 4px;
-                                                    font-size: 1.3em;
-                                                    font-weight: bolder;
-                                                }
-                                                .p24Bold {
-                                                    margin-top: 40px;
-                                                    margin-bottom: 15px;
-                                                }
-                                                #card-2 {
-                                                    margin: 30px 17px 0px 0px;
-                                                }
-                                                #card-3 {
-                                                    width: 100%;
-                                                }
-                                                .awesomeInfo {
-                                                    margin-top: 20px;
-                                                }
-                                                .awesomeInfoText {
-                                                    font-size: 1.3em;
-                                                }
-                                                .card-1 {
-                                                    margin-top: 15px;
-                                                }
-                                                #elt-c {
-                                                    border-radius: 10px 10px 10px 10px;
-                                                    -webkit-border-radius: 10px 10px 10px 10px;
-                                                    -moz-border-radius: 10px 10px 10px 10px;
-                                                    -ms-border-radius: 10px 10px 10px 10px;
-                                                    -o-border-radius: 10px 10px 10px 10px;
-                                                }
-                                                #elt-c i {
-                                                    display: flex;
-                                                    justify-content: center;
-                                                    width: 50px;
-                                                    font-size: 16px;
-                                                }
-                                                .searchReserviaTexte {
-                                                    display: none;
-                                                }
-                                                .box_un {
-                                                    width: 100%;
-                                                    background-color: white;
-                                                }
-                                                .box_deux {
-                                                    width: 110%;
-                                                    margin: 0px -22px;
-                                                    border-radius: 0px 0px 0px 0px;
-                                                }
-                                                .card-hebergements {
-                                                    width: 100%;
-                                                    margin: 0px 0px 20px 0px;
-                                                }
-                                                .card-populaires {
-                                                    width: 100%;
-                                                }
-                                                .ligne-zero {
-                                                    width: 86%;
-                                                }
-                                                .card-populaires {
-                                                    flex-direction: row;
-                                                }
-                                                .card-populaires img {
-                                                    border-radius: 20px 0px 0px 20px;
-                                                }
-                                                .card_first,
-                                                .card_second,
-                                                .card_third,
-                                                .card_fourth {
-                                                    width: 100%;
-                                                    height: auto;
-                                                }
-                                                .first,
-                                                .second_one,
-                                                .second_two,
-                                                .third,
-                                                .fourth_one,
-                                                .fourth_two {
-                                                    height: 180px;
-                                                    margin-bottom: 20px;
-                                                }
-                                                .first img,
-                                                .second_one img,
-                                                .second_two img,
-                                                .third img,
-                                                .fourth_one img,
-                                                .fourth_two img {
-                                                    height: 125px;
-                                                }
-                                                .p2marseille {
-                                                    font-size: 14px;
-                                                    font-weight: bold;
-                                                    /* margin: auto 10px; */
-                                                    margin: 10px 0px 0px 10px;
-                                                    color: black;
-                                                }
-                                                .footer {
-                                                    width: 100%;
-                                                    margin: 0px 0px;
-                                                    background-color: #F2F2F2;
-                                                    display: flex;
-                                                    flex-direction: column;
-                                                    /* align-content: flex-end; */
-                                                }
-                                                .footer_assistance,
-                                                .footer_hebergement,
-                                                .footer_propos {
-                                                    display: flex;
-                                                    flex-direction: column;
-                                                    padding: 0px;
-                                                    margin-left: 30px;
-                                                }
-                                                .p2left {
-                                                    font-size: 18px;
-                                                }
-                                                .awesomeInfo {
-                                                    width: auto;
-                                                    display: flex;
-                                                    justify-content: flex-start;
-                                                    align-items: flex-start;
-                                                }
-                                                .titleHeight {
-                                                    margin-left: -15px;
-                                                }
-                                                .titleHeight_2 {
-                                                    font-size: 20px;
-                                                    margin-left: 0px;
-                                                }
-                                            }
-                                            /* Fin reation du navigateur principal 51c{10px10px 10px 10px 10px
+        margin: 47px auto;
+        font-family: "ralewayregular", "Sans serif";
+        font-size: 16px;
+    }
+    
+    .container {
+        padding: 0px 1.5rem;
+        width: 100%;
+        margin: 0px auto;
+        height: auto;
+        box-sizing: border-box;
+        background-color: white;
+    }
+    
+    .footer {
+        max-width: 100%;
+        margin: 0px auto;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    nav {
+        width: 100%;
+        height: auto;
+        /* height: 400px; */
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+    
+    #sign {
+        color: #0065FC
+    }
+    
+    .heading {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .part {
+        width: auto;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+    
+    #hebergement {
+        width: 110px;
+        height: 35px;
+        color: #0065FC;
+        margin-top: -48px;
+        margin-right: 65px;
+        padding-top: 44px;
+        padding-left: 15px;
+        border-top: 4px solid #0065FC;
+    }
+    
+    .elt {
+        width: 69px;
+        height: 80px;
+        margin-right: 54px;
+    }
+    
+    .elt img {
+        width: auto;
+        height: 50px;
+        margin-top: -6px;
+        margin-left: 30px;
+    }
+    
+    .part:nth-child(1) {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    main {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .box_un,
+    .box_deux {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #F2F2F2;
+        margin-bottom: 40px;
+    }
+    
+    .box_un {
+        width: 64%;
+    }
+    
+    .box_deux {
+        width: 33%;
+    }
+    
+    .ligne-zero {
+        width: 82%;
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    .ligne-zero-text {
+        display: inline-block;
+        font-weight: bold;
+    }
+    
+    .ligne-zero-icon {
+        display: inline-block;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .card-1 {
+        max-width: 98%;
+        width: 45%;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    #elt-a {
+        height: 2rem;
+        min-width: 3rem;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F2F2F2;
+        border-radius: 20px 0px 0px 20px;
+        -webkit-border-radius: 20px 0px 0px 20px;
+        -moz-border-radius: 20px 0px 0px 20px;
+        -ms-border-radius: 20px 0px 0px 20px;
+        -o-border-radius: 20px 0px 0px 20px;
+    }
+    
+    #elt-b {
+        height: 1.65rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid#F2F2F2;
+    }
+    
+    #elt-c {
+        height: 2rem;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px 20px 20px 0px;
+        background-color: #0065FC;
+        padding: 0px 20px 0px 20px;
+        color: white;
+        font-size: 14px;
+    }
+    
+    #elt-c i {
+        display: none;
+    }
+    
+    input {
+        width: 11rem;
+        cursor: pointer;
+        border: none;
+        margin-left: 10px;
+    }
+    
+    .container:after {
+        overflow: hidden;
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .textFlex {
+        width: 98%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+    
+    #card-2 {
+        margin: 30px 21px 0px 5px;
+        width: auto;
+        height: 38px;
+        display: table;
+        text-align: center;
+        border-radius: 30px 30px 30px 30px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: auto;
+        border: 3px solid #F2F2F2;
+    }
+    
+    #card-3 {
+        margin: 30px 10px 0px 0px;
+        text-align: left;
+        padding: 0px 0.5em 0 0.5em;
+        margin: right;
+    }
+    
+    #card-4 {
+        display: flex;
+        margin: 10px 10px 0px -5px;
+    }
+    
+    #moncercle {
+        margin: -3px;
+        background: #DEEBFF;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        display: table;
+        border-radius: 50%;
+    }
+    
+    #moncercle-i {
+        justify-content: center;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: table;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    #moncercle span {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    #logo_filter {
+        color: #0065FC;
+    }
+    
+    #logo_filter_i {
+        color: black;
+    }
+    
+    #logo_filter_bis {
+        color: #F2F2F2;
+    }
+    
+    .montableau {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    #elt-e {
+        padding: 0px 1em 0 2em;
+        height: 30px;
+        display: table;
+        border-radius: 0px 30px 30px 0px;
+        -webkit-border-radius: 0px 30px 30px 0px;
+        -moz-border-radius: 0px 30px 30px 0px;
+        -ms-border-radius: 0px 30px 30px 0px;
+        -o-border-radius: 0px 30px 30px 0px;
+    }
+    
+    .ligne-une,
+    .ligne-deux {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        /* margin: 0px auto; */
+        justify-content: space-evenly;
+    }
+    
+    .card-hebergements {
+        color: black;
+        width: 27%;
+        height: auto;
+        box-shadow: 1px 1px 12px #f2f2f2;
+        padding: 5px;
+        margin: 20px;
+        object-fit: cover;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        overflow: hidden;
+        text-decoration: none;
+    }
+    
+    .card-hebergements img {
+        width: 99%;
+        height: 110px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+        -webkit-border-radius: 20px 20px 0px 0px;
+        -moz-border-radius: 20px 20px 0px 0px;
+        -ms-border-radius: 20px 20px 0px 0px;
+        -o-border-radius: 20px 20px 0px 0px;
+    }
+    
+    .ligne-botton {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card-populaires {
+        width: 80%;
+        height: 25%;
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        margin: 15px;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .divImg {
+        width: 45%;
+    }
+    
+    .card-populaires img {
+        width: 95%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px 0px 0px 20px;
+        -webkit-border-radius: 20px 0px 0px 20px;
+        -moz-border-radius: 20px 0px 0px 20px;
+        -ms-border-radius: 20px 0px 0px 20px;
+        -o-border-radius: 20px 0px 0px 20px;
+    }
+    
+    .divleft {
+        display: flex;
+        flex-direction: column;
+        /* height: 50px; */
+    }
+    
+    .divleftTop {
+        margin: 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .p2bis {
+        margin: 5px 0px 0px 0px;
+        font-size: 12px;
+    }
+    
+    .p2ter {
+        margin: 5px 0px 0px 15px;
+        font-size: 12px;
+    }
+    
+    .p2left {
+        line-height: auto;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 5px 0px;
+    }
+    
+    .p2leftBis {
+        font-size: 0.6rem;
+        color: rgba(0, 0, 0, 0.411);
+    }
+    
+    .p2leftBis span {
+        font-size: 16px;
+    }
+    
+    .divright {
+        width: 52%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .rightDivTop {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 85%;
+        height: auto;
+        margin: 0px 0px 0px 15px;
+    }
+    
+    .p0 {
+        line-height: 4px;
+        font-size: 15px;
+        margin: 15px 20px 10px 20px;
+    }
+    
+    .p0Filtre {
+        line-height: 4px;
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
+    
+    .p0Nav {
+        width: auto;
+        display: inline;
+        line-height: 4px;
+        font-size: 1.3rem;
+        font-weight: bolder;
+        align-content: center;
+        margin: auto 0.8rem;
+    }
+    
+    .p0Nav-animaux {
+        min-width: 178px;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 1.3rem;
+        font-weight: bolder;
+        align-content: center;
+        margin: auto 0.8rem;
+    }
+    
+    .p1 {
+        line-height: 4px;
+        font-size: 15px;
+    }
+    
+     ::placeholder {
+        color: black;
+        line-height: auto;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .p24Bold {
+        line-height: auto;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .p2Activity {
+        line-height: auto;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    
+    .titleHeight {
+        height: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .titleHeight_2 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 3rem;
+    }
+    
+    .p2marseille {
+        height: 40px;
+        font-weight: bold;
+        margin: auto 30px;
+        color: black;
+    }
+    
+    .p2left-word {
+        line-height: auto;
+        font-size: 12px;
+    }
+    
+    .p4 {
+        margin: 10px 0px 0px 10px;
+        padding-bottom: 0
+    }
+    
+    .p5 {
+        margin: 15px 15px 15px 15px;
+        padding: 10
+    }
+    
+    @font-face {
+        font-family: 'ralewayregular';
+        src: url('font/raleway-regular-webfont.woff2') format('woff2'), url('font/raleway-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    .card-bottom {
+        /* border: 1px solid red; */
+        padding: 10px;
+        margin: 15px;
+        height: 450px;
+        width: 250;
+        background-color: white;
+        border-radius: 30px 30px 30px 30px;
+        -moz-border-radius: 30px 30px 30px 30px;
+        -ms-border-radius: 30px 30px 30px 30px;
+        -o-border-radius: 30px 30px 30px 30px;
+        -webkit-border-radius: 30px 30px 30px 30px;
+    }
+    
+    .card-bottom-un {
+        padding: 10px;
+        margin: 15px;
+        height: 200px;
+        width: 250px;
+        background-color: white;
+        border-radius: 30px 30px 30px 30px;
+        -moz-border-radius: 30px 30px 30px 30px;
+        -ms-border-radius: 30px 30px 30px 30px;
+        -o-border-radius: 30px 30px 30px 30px;
+        -webkit-border-radius: 30px 30px 30px 30px;
+    }
+    
+    .card-bottom-deux {
+        padding: 10px;
+        margin: 15px;
+        height: 180px;
+        width: 250px;
+        background-color: white;
+        border-radius: 30px 30px 30px 30px;
+        -moz-border-radius: 30px 30px 30px 30px;
+        -ms-border-radius: 30px 30px 30px 30px;
+        -o-border-radius: 30px 30px 30px 30px;
+        -webkit-border-radius: 30px 30px 30px 30px;
+    }
+    
+    .card-bottom img {
+        border-radius: 30px 30px 0px 0px;
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+        -webkit-border-radius: 30px 30px 0px 0px;
+        -moz-border-radius: 30px 30px 0px 0px;
+        -ms-border-radius: 30px 30px 0px 0px;
+        -o-border-radius: 30px 30px 0px 0px;
+    }
+    
+    .card-bottom-un img {
+        border-radius: 30px 30px 0px 0px;
+        width: 300px;
+        height: 220px;
+        object-fit: cover;
+        -webkit-border-radius: 30px 30px 0px 0px;
+        -moz-border-radius: 30px 30px 0px 0px;
+        -ms-border-radius: 30px 30px 0px 0px;
+        -o-border-radius: 30px 30px 0px 0px;
+    }
+    
+    .imgdeux img {
+        border-radius: 30px 30px 0px 0px;
+        width: 300px;
+        height: 150px;
+        object-fit: cover;
+        -webkit-border-radius: 30px 30px 0px 0px;
+        -moz-border-radius: 30px 30px 0px 0px;
+        -ms-border-radius: 30px 30px 0px 0px;
+        -o-border-radius: 30px 30px 0px 0px;
+    }
+    
+    .card-bottom-deux img {
+        border-radius: 30px 30px 0px 0px;
+        width: 300px;
+        height: 180px;
+        object-fit: cover;
+        -webkit-border-radius: 30px 30px 0px 0px;
+        -moz-border-radius: 30px 30px 0px 0px;
+        -ms-border-radius: 30px 30px 0px 0px;
+        -o-border-radius: 30px 30px 0px 0px;
+    }
+    
+    .box_bottom {
+        padding: 10px;
+        background-color: #F2F2F2;
+        margin: 10px 10px 10px 10px;
+        width: auto;
+        border-radius: 30px 30px 30px 30px;
+    }
+    
+    .card_activity {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .card_first,
+    .card_third {
+        width: 23%;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .first,
+    .third {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px 20px 20px 20px;
+        width: 100%;
+        height: 100%;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        -ms-border-radius: 20px 20px 20px 20px;
+        -o-border-radius: 20px 20px 20px 20px;
+        box-shadow: 1px 1px 12px #F2F2F2;
+        text-decoration: none;
+    }
+    
+    .third img,
+    .first img {
+        width: 100%;
+        height: 88%;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+        -webkit-border-radius: 20px 20px 0px 0px;
+        -moz-border-radius: 20px 20px 0px 0px;
+        -ms-border-radius: 20px 20px 0px 0px;
+        -o-border-radius: 20px 20px 0px 0px;
+    }
+    
+    .card_second {
+        width: 23%;
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .second_one {
+        width: 100%;
+        height: 250px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 12px #F2F2F2;
+        border-radius: 30px 30px 30px 30px;
+        padding: 0px -5px 0px 0px;
+        text-decoration: none;
+    }
+    
+    .second_two {
+        width: 100%;
+        height: 150px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        box-shadow: 1px 1px 12px #F2F2F2;
+        border-radius: 30px 30px 30px 30px;
+        -webkit-border-radius: 30px 30px 30px 30px;
+        -moz-border-radius: 30px 30px 30px 30px;
+        -ms-border-radius: 30px 30px 30px 30px;
+        -o-border-radius: 30px 30px 30px 30px;
+        text-decoration: none;
+    }
+    
+    .second_one img {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+        -webkit-border-radius: 20px 20px 0px 0px;
+        -moz-border-radius: 20px 20px 0px 0px;
+        -ms-border-radius: 20px 20px 0px 0px;
+        -o-border-radius: 20px 20px 0px 0px;
+    }
+    
+    .second_two img {
+        height: 65%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+        -webkit-border-radius: 20px 20px 0px 0px;
+        -moz-border-radius: 20px 20px 0px 0px;
+        -ms-border-radius: 20px 20px 0px 0px;
+        -o-border-radius: 20px 20px 0px 0px;
+    }
+    
+    .card_fourth {
+        width: 23%;
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .fourth_one,
+    .fourth_two {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        width: 100%;
+        height: 47%;
+        box-shadow: 1px 1px 12px #F2F2F2;
+        border-radius: 20px 20px 20px 20px;
+        text-decoration: none;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        -ms-border-radius: 20px 20px 20px 20px;
+        -o-border-radius: 20px 20px 20px 20px;
+    }
+    
+    .fourth_one img,
+    .fourth_two img {
+        width: 99%;
+        height: 73%;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+        -webkit-border-radius: 20px 20px 0px 0px;
+        -moz-border-radius: 20px 20px 0px 0px;
+        -ms-border-radius: 20px 20px 0px 0px;
+        -o-border-radius: 20px 20px 0px 0px;
+    }
+    
+    .elmt_3-0 {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 1px 1px 12px #F2F2F2;
+        width: 96%;
+        height: 90%;
+        border-radius: 20px 20px;
+        -webkit-border-radius: 20px 20px;
+        -moz-border-radius: 20px 20px;
+        -ms-border-radius: 20px 20px;
+        -o-border-radius: 20px 20px;
+    }
+    
+    .awesomeInfo {
+        width: auto;
+        display: flex;
+        padding-top: 30px;
+        align-items: center;
+    }
+    
+    .awesomeInfo-i {
+        height: 1.5rem;
+        width: 1.5rem;
+        border: solid 2px #F2F2F2;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+    }
+    
+    .awesomeInfo-i-Image {
+        color: #0065FC;
+        font-size: 12px;
+    }
+    
+    .footer_assistance,
+    .footer_hebergement,
+    .footer_propos {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 86px;
+        margin: 0px 120px 0px 0px;
+    }
+    /* On screens that are 1281px wide or less, go from four columns to two columns */
+    
+    @media screen and (max-width: 1281px) {
+        main {
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .ligne-zero {
+            width: 90%;
+        }
+        .ligne-deux {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin: 0px auto;
+            justify-content: space-evenly;
+        }
+        .box_un {
+            width: 100%;
+            flex-wrap: nowrap;
+        }
+        .box_deux {
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .card-populaires {
+            color: black;
+            width: 24.6%;
+            height: auto;
+            flex-direction: column;
+            padding: 5px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 20px 20px 20px 20px;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .card-populaires img {
+            width: 99%;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 20px 20px 0px 0px;
+            -webkit-border-radius: 20px 20px 0px 0px;
+            -moz-border-radius: 20px 20px 0px 0px;
+            -ms-border-radius: 20px 20px 0px 0px;
+            -o-border-radius: 20px 20px 0px 0px;
+        }
+        .divImg,
+        .divright {
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 960px) {
+        main {
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .ligne-deux {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin: 0px auto;
+            justify-content: space-evenly;
+        }
+        .box_un {
+            width: 100%;
+            flex-wrap: nowrap;
+        }
+        .box_deux {
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .card-populaires {
+            color: black;
+            width: 24.6%;
+            height: auto;
+            flex-direction: column;
+            padding: 5px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 20px 20px 20px 20px;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .card-populaires img {
+            width: 99%;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 20px 20px 0px 0px;
+            -webkit-border-radius: 20px 20px 0px 0px;
+            -moz-border-radius: 20px 20px 0px 0px;
+            -ms-border-radius: 20px 20px 0px 0px;
+            -o-border-radius: 20px 20px 0px 0px;
+        }
+        .card_first,
+        .card_third {
+            width: 46%;
+        }
+        .card_second {
+            width: 46%;
+        }
+        .card_fourth {
+            width: 46%;
+        }
+    }
+    
+    @media screen and (max-width: 620px) {
+        body {
+            max-width: 620px;
+            width: 500px;
+            ;
+        }
+        .nav,
+        .heading {
+            width: 100%;
+        }
+        .part {
+            /* width: 100%; */
+            display: flex;
+            justify-content: flex-end;
+        }
+        #hebergement {
+            width: 110px;
+            height: 35px;
+            color: #0065FC;
+            border-top: none;
+            margin-right: 23px;
+        }
+        .elt {
+            width: 4rem;
+            height: 0.5rem;
+        }
+        .elt img {
+            margin-top: 3px;
+        }
+        .part:nth-child(1) {
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+        }
+        .part:nth-child(2) {
+            width: 100%;
+            order: 3;
+            padding-top: 10%;
+            display: flex;
+            justify-content: space-around;
+        }
+        .part:nth-child(3) {
+            order: 2;
+        }
+        .heading {
+            width: 100%;
+            height: 150px;
+            flex-wrap: wrap;
+        }
+        .trait {
+            width: 100%;
+            display: flex;
+            margin-top: -20px;
+        }
+        .trait-gauche {
+            width: 49.5%;
+            border: 1px solid#0065FC;
+        }
+        .trait-droit {
+            width: 49.5%;
+            margin-right: -20px;
+            border: 1px solid #F2F2F2;
+        }
+        .p0Filtre {
+            margin: 0px 0px;
+            line-height: 4px;
+            font-size: 1.3em;
+            font-weight: bolder;
+        }
+        .p24Bold {
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        #card-2 {
+            margin: 30px 17px 0px 0px;
+        }
+        #card-3 {
+            width: 100%;
+        }
+        .awesomeInfo {
+            margin-top: 20px;
+        }
+        .awesomeInfoText {
+            font-size: 1.3em;
+        }
+        .card-1 {
+            margin-top: 15px;
+        }
+        #elt-c {
+            border-radius: 10px 10px 10px 10px;
+            -webkit-border-radius: 10px 10px 10px 10px;
+            -moz-border-radius: 10px 10px 10px 10px;
+            -ms-border-radius: 10px 10px 10px 10px;
+            -o-border-radius: 10px 10px 10px 10px;
+        }
+        #elt-c i {
+            display: flex;
+            justify-content: center;
+            width: 50px;
+            font-size: 16px;
+        }
+        .searchReserviaTexte {
+            display: none;
+        }
+        .box_un {
+            width: 100%;
+            background-color: white;
+        }
+        .box_deux {
+            width: 110%;
+            margin: 0px -22px;
+            border-radius: 0px 0px 0px 0px;
+        }
+        .card-hebergements {
+            width: 100%;
+            margin: 0px 0px 20px 0px;
+        }
+        .card-populaires {
+            width: 100%;
+        }
+        .ligne-zero {
+            width: 86%;
+        }
+        .card-populaires {
+            flex-direction: row;
+        }
+        .card-populaires img {
+            border-radius: 20px 0px 0px 20px;
+        }
+        .card_first,
+        .card_second,
+        .card_third,
+        .card_fourth {
+            width: 100%;
+            height: auto;
+        }
+        .first,
+        .second_one,
+        .second_two,
+        .third,
+        .fourth_one,
+        .fourth_two {
+            height: 180px;
+            margin-bottom: 20px;
+        }
+        .first img,
+        .second_one img,
+        .second_two img,
+        .third img,
+        .fourth_one img,
+        .fourth_two img {
+            height: 125px;
+        }
+        .p2marseille {
+            font-size: 14px;
+            font-weight: bold;
+            /* margin: auto 10px; */
+            margin: 10px 0px 0px 10px;
+            color: black;
+        }
+        .footer {
+            width: 100%;
+            margin: 0px 0px;
+            background-color: #F2F2F2;
+            display: flex;
+            flex-direction: column;
+            /* align-content: flex-end; */
+        }
+        .footer_assistance,
+        .footer_hebergement,
+        .footer_propos {
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            margin-left: 30px;
+        }
+        .p2left {
+            font-size: 18px;
+        }
+        .awesomeInfo {
+            width: auto;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+        .titleHeight {
+            margin-left: -15px;
+        }
+        .titleHeight_2 {
+            font-size: 20px;
+            margin-left: 0px;
+        }
+    }
