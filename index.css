@@ -203,7 +203,7 @@
         margin-bottom: 20px;
     }
     
-    #card-2 {
+    .card-2 {
         margin: 30px 21px 0px 5px;
         width: auto;
         height: 38px;
@@ -238,8 +238,7 @@
         border-radius: 50%;
         color: #0065FC;
     }
-    
-    #moncercle-i {
+    /* #moncercle-i {
         justify-content: center;
         border-radius: 50%;
         width: 40px;
@@ -249,7 +248,7 @@
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-    }
+    } */
     
     #moncercle span {
         display: table-cell;
@@ -668,7 +667,7 @@
         flex-direction: column;
         box-shadow: 1px 1px 12px #F2F2F2;
         border-radius: 30px 30px 30px 30px;
-        /* padding: 0px 0px 0px 0px; */
+        padding: 0px 0px 0px 0px;
         text-decoration: none;
     }
     
@@ -978,7 +977,7 @@
             margin-top: 40px;
             margin-bottom: 15px;
         }
-        #card-2 {
+        .card-2 {
             margin: 30px 17px 0px 0px;
         }
         #card-3 {
