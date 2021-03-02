@@ -116,7 +116,7 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 30px;
-        margin-left: 40px;
+        /* margin-left: 40px; */
     }
     
     .ligne-zero-text {
@@ -765,6 +765,10 @@
         align-items: center;
     }
     
+    h2 {
+        font-size: 24px;
+    }
+    
     .awesomeInfo-i {
         height: 1.5rem;
         width: 1.5rem;
@@ -1037,6 +1041,9 @@
             margin: 0px -22px;
             border-radius: 0px 0px 0px 0px;
         }
+        /* .box_deux.ligne-zero h2 {
+            margin-top: 20px
+        } */
         .card-hebergements {
             width: 100%;
             margin: 0px 0px 20px 0px;
@@ -1046,6 +1053,11 @@
         }
         .ligne-zero {
             width: 86%;
+            margin-left: 20px;
+        }
+        .box_un .ligne-zero h2 {
+            width: 86%;
+            margin-left: -20px;
         }
         .card-populaires {
             flex-direction: row;
@@ -1102,6 +1114,9 @@
         }
         .p2left {
             font-size: 18px;
+        }
+        h2 {
+            font-size: 24px;
         }
         .titleHeight {
             margin-left: -15px;
