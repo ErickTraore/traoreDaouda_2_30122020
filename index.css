@@ -983,11 +983,31 @@
         #card-3 {
             width: 100%;
         }
-        .awesomeInfo {
+        /* .awesomeInfo {
             margin-top: 20px;
-        }
-        .awesomeInfoText {
+        } */
+        /* .awesomeInfoText {
             font-size: 1.3em;
+        } */
+        h4 {
+            font-size: 20px;
+        }
+        .Info {
+            width: auto;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .Info-i {
+            height: 1.5rem;
+            width: 1.5rem;
+            border: solid 2px #F2F2F2;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            margin-top: -1.4rem;
         }
         .card-1 {
             margin-top: 15px;
@@ -1082,12 +1102,6 @@
         }
         .p2left {
             font-size: 18px;
-        }
-        .awesomeInfo {
-            width: auto;
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
         }
         .titleHeight {
             margin-left: -15px;
