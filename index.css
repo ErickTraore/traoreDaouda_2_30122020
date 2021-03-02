@@ -228,7 +228,7 @@
         margin: 10px 10px 0px -5px;
     }
     
-    #moncercle {
+    .moncercle {
         margin: -3px;
         background: #DEEBFF;
         justify-content: center;
@@ -238,7 +238,7 @@
         border-radius: 50%;
         color: #0065FC;
     }
-    /* #moncercle-i {
+    /* .moncercle-i {
         justify-content: center;
         border-radius: 50%;
         width: 40px;
@@ -250,7 +250,7 @@
         -o-border-radius: 50%;
     } */
     
-    #moncercle span {
+    .moncercle span {
         display: table-cell;
         vertical-align: middle;
     }
