@@ -769,6 +769,12 @@
     h2 {
         font-size: 19px;
         margin-left: 20px;
+        font-weight: bold;
+    }
+    
+    .ligne-zero p {
+        font-size: 21px;
+        margin-left: 20px;
     }
     
     .awesomeInfo-i {
