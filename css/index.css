@@ -92,6 +92,7 @@
         justify-content: space-between;
     }
     
+    main,
     .box_un,
     .box_deux {
         height: auto;
