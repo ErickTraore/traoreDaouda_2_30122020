@@ -2039,9 +2039,9 @@ height: 4rem;
 }
 @media screen and (max-width: 620px) {
     body {
-        max-width: 620px;
-        width: 500px;
-        ;
+        max-width: 500px;
+        width: 100%;
+        /* width: 500px; */
     }
     
     .nav,
@@ -2250,11 +2250,11 @@ height: 4rem;
     }
     
     .p2left {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .p2leftBis {
-        font-size: 1.3rem;
+        font-size: 1rem;
         color: black;
     }
     
