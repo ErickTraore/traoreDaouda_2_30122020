@@ -3,6 +3,16 @@ body {
     margin: 47px auto;
     font-family: "ralewayregular", "Sans serif";
     font-size: 16px;
+    display: -ms-flexbox;
+    -ms-box-orient: horizontal;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flexbox;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
 }
 
 .container {
