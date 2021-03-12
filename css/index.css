@@ -921,7 +921,8 @@
         body {
             max-width: 620px;
             min-width: 150px;
-            width: 500px;
+            /* width: 500px; */
+            width: 100%;
         }
         .nav,
         .heading {
