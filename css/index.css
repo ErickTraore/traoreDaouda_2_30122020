@@ -112,7 +112,6 @@ nav {
     border-radius: 20px 20px 20px 20px;
     background-color: #F2F2F2;
     margin-bottom: 40px;
-    border: 3px solid yellow;
 }
 
 .box_un {
@@ -543,7 +542,6 @@ margin-left: 20px;
 }
 
 .card-bottom {
-    /* border: 1px solid red; */
     padding: 10px;
     margin: 15px;
     height: 450px;
