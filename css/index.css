@@ -1,17 +1,25 @@
 body {
     width: 100%;
+    height: 100%;
     margin: 47px auto;
     font-family: "ralewayregular", "Sans serif";
     font-size: 16px;
 }
 
-.container {
-    padding: 0px 1.5rem;
+header {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -3rem;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.naving {
     width: 100%;
     margin: 0px auto;
-    height: auto;
-    box-sizing: border-box;
-    background-color: white;
 }
 
 .footer {
@@ -26,7 +34,6 @@ body {
 nav {
     width: 100%;
     height: auto;
-    /* height: 400px; */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -37,7 +44,7 @@ nav {
 }
 
 #sign {
-    color: #0065FC
+    color: #0065FC;
 }
 
 
@@ -88,21 +95,24 @@ nav {
     justify-content: flex-start;
 }
 
-main {
+.section {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .box_un,
 .box_deux {
     height: auto;
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     border-radius: 20px 20px 20px 20px;
     background-color: #F2F2F2;
     margin-bottom: 40px;
+    border: 3px solid yellow;
 }
 
 .box_un {
@@ -111,6 +121,7 @@ main {
 
 .box_deux {
     width: 33%;
+    /* margin-right: -0.7rem; */
 }
 
 .ligne-zero {
@@ -136,8 +147,8 @@ main {
 
 .card-1 {
     max-width: 98%;
-    width: 45%;
-    height: 40px;
+    width: 80%;
+    height: 67px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -145,7 +156,7 @@ main {
 }
 
 #elt-a {
-    height: 2rem;
+    height: 4rem;
     min-width: 3rem;
     font-size: 16px;
     display: flex;
@@ -160,7 +171,7 @@ main {
 }
 
 #elt-b {
-    height: 1.65rem;
+    height: 3.65rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -168,7 +179,7 @@ main {
 }
 
 #elt-c {
-    height: 2rem;
+    height: 4rem;
     width: 130px;
     display: flex;
     align-items: center;
@@ -197,7 +208,7 @@ input {
     margin-left: 10px;
 }
 
-.container:after {
+.section:after {
     overflow: hidden;
     content: "";
     display: table;
@@ -213,7 +224,7 @@ input {
     margin-bottom: 20px;
 }
 
-#card-2 {
+.card-2 {
     margin: 30px 21px 0px 5px;
     width: auto;
     height: 38px;
@@ -238,7 +249,7 @@ input {
     margin: 10px 10px 0px -5px;
 }
 
-#moncercle {
+.moncercle {
     margin: -3px;
     background: #DEEBFF;
     justify-content: center;
@@ -248,7 +259,7 @@ input {
     border-radius: 50%;
 }
 
-#moncercle-i {
+.moncercle-i {
     justify-content: center;
     border-radius: 50%;
     width: 40px;
@@ -260,20 +271,21 @@ input {
     -o-border-radius: 50%;
 }
 
-#moncercle span {
+.moncercle span {
     display: table-cell;
     vertical-align: middle;
-}
-
-#logo_filter {
     color: #0065FC;
 }
 
-#logo_filter_i {
-    color: black;
+.fa-star {
+    color: #0065FC;
 }
 
-#logo_filter_bis {
+.p2bis .logo {
+    color: #F2F2F2;
+}
+
+.p2ter .logo {
     color: #F2F2F2;
 }
 
@@ -309,7 +321,7 @@ input {
 
 .card-hebergements {
     color: black;
-    width: 27%;
+    width: 25%;
     height: auto;
     /* height: 37%; */
     padding: 5px;
@@ -323,6 +335,7 @@ input {
 .card-hebergements img {
     width: 99%;
     height: 110px;
+    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     -webkit-border-radius: 20px 20px 0px 0px;
     -moz-border-radius: 20px 20px 0px 0px;
@@ -349,12 +362,13 @@ input {
 }
 
 .divImg {
-    width: 45%;
+    width: 100%;
 }
 
 .card-populaires img {
     width: 95%;
     height: 100%;
+    object-fit: cover;
     border-radius: 20px 0px 0px 20px;
     -webkit-border-radius: 20px 0px 0px 20px;
     -moz-border-radius: 20px 0px 0px 20px;
@@ -393,16 +407,17 @@ input {
 }
 
 .p2leftBis {
-    font-size: 0.6rem;
-    color: rgba(0, 0, 0, 0.411);
+    font-size: 0.9rem;
+    color: black;
 }
 
 .p2leftBis span {
     font-size: 16px;
+    font-weight: bold;
 }
 
 .divright {
-    width: 52%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -504,21 +519,6 @@ margin-left: 20px;
     /* margin: 10px 0px 0px 15px; */
     color: black;
 }
-
-
-/* p span {
-font-size: 22px;
-font-weight: bold;
-margin: 0px 0px 0px 132px;
-} */
-
-
-/* #elt-a span {
-margin-left: 50px;
-font-size: 22px;
-font-weight: bold;
-margin: 0px 0px 0px 20px;
-} */
 
 .p2left-word {
     line-height: auto;
@@ -637,8 +637,10 @@ margin: 0px 0px 0px 20px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    /* margin: auto; */
+    padding: 10px;
     margin-bottom: 20px;
+    border: 3px solid red;
 }
 
 .card_first,
@@ -764,6 +766,7 @@ margin: 0px 0px 0px 20px;
 .fourth_one img,
 .fourth_two img {
     width: 99%;
+    object-fit: cover;
     height: 73%;
     border-radius: 20px 20px 0px 0px;
     -webkit-border-radius: 20px 20px 0px 0px;
@@ -785,13 +788,12 @@ margin: 0px 0px 0px 20px;
     -o-border-radius: 20px 20px;
 }
 
-
-/* .awesome {
-display: flex;
-align-items: center;
-width: 100%;
-height: 4rem;
-} */
+.awesome {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0rem;
+}
 
 .awesomeInfo {
     width: auto;
@@ -829,66 +831,16 @@ height: 4rem;
 /* On screens that are 1281px wide or less, go from four columns to two columns */
 
 @media screen and (max-width: 1281px) {
-    main {
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .ligne-zero {
-        width: 90%;
-    }
-    .ligne-deux {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        margin: 0px auto;
-        justify-content: space-evenly;
-    }
     .box_un {
-        width: 100%;
         flex-wrap: nowrap;
     }
     .box_deux {
-        width: 100%;
-        flex-direction: row;
         flex-wrap: wrap;
     }
-    .card-populaires {
-        color: black;
-        width: 24.6%;
-        height: auto;
-        flex-direction: column;
-        padding: 5px;
-        margin: 20px;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        overflow: hidden;
-        text-decoration: none;
-    }
-    .card-populaires img {
-        width: 99%;
-        height: 110px;
-        border-radius: 20px 20px 0px 0px;
-        -webkit-border-radius: 20px 20px 0px 0px;
-        -moz-border-radius: 20px 20px 0px 0px;
-        -ms-border-radius: 20px 20px 0px 0px;
-        -o-border-radius: 20px 20px 0px 0px;
-    }
-    .divImg,
-    .divright {
-        width: 100%;
-    }
-    /* Fin reation du navigateur principal  */
-    /* Fin reation du navigateur principal  */
 }
 
-
-/* @media screen and (max-width: 1281px) {} */
-
 @media screen and (max-width: 960px) {
-    main {
+    .section {
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
@@ -917,7 +869,7 @@ height: 4rem;
         height: auto;
         flex-direction: column;
         padding: 5px;
-        margin: 20px;
+        margin-bottom: 20px;
         background-color: white;
         border-radius: 20px 20px 20px 20px;
         overflow: hidden;
@@ -935,30 +887,31 @@ height: 4rem;
     .card_first,
     .card_third {
         width: 46%;
-        /* height: 390px; */
-        /* margin-bottom: 40px; */
     }
-    /*     .first img,
     .third img {
         width: 100%;
         height: 87%;
-    }*/
+    }
     .card_second {
         width: 46%;
-        /* height: 390px; */
     }
     .card_fourth {
         width: 46%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
+    body {
+        max-width: 100%;
+        width: 95%;
+        height: auto;
+        margin-left: 10px;
+    }
     .nav,
     .heading {
         width: 100%;
     }
     .part {
-        /* width: 100%; */
         display: flex;
         justify-content: flex-end;
     }
@@ -999,7 +952,6 @@ height: 4rem;
     .trait {
         width: 100%;
         display: flex;
-        margin-top: -20px;
     }
     .trait-gauche {
         width: 49.5%;
@@ -1007,7 +959,7 @@ height: 4rem;
     }
     .trait-droit {
         width: 49.5%;
-        margin-right: -20px;
+        /* margin-right: -20px; */
         border: 1px solid #F2F2F2;
     }
     .p0Filtre {
@@ -1021,13 +973,16 @@ height: 4rem;
         margin-bottom: 15px;
     }
     #card-2 {
-        margin: 30px 15px 0px 0px;
+        margin: 30px 17px 0px 0px;
     }
     #card-3 {
         width: 100%;
     }
     .awesomeInfo {
         margin-top: 20px;
+    }
+    .awesomeInfoText {
+        font-size: 1.3em;
     }
     .card-1 {
         margin-top: 15px;
@@ -1048,20 +1003,15 @@ height: 4rem;
     .searchReserviaTexte {
         display: none;
     }
-    .box_un {
-        width: 100%;
-    }
-    .box_deux {
-        width: 100%;
-    }
     .card-hebergements {
         width: 100%;
+        margin: 0px 0px 20px 0px;
     }
     .card-populaires {
         width: 100%;
     }
     .ligne-zero {
-        width: 80%;
+        width: 86%;
     }
     .card-populaires {
         flex-direction: row;
@@ -1082,7 +1032,7 @@ height: 4rem;
     .third,
     .fourth_one,
     .fourth_two {
-        height: 120px;
+        height: 180px;
         margin-bottom: 20px;
     }
     .first img,
@@ -1091,12 +1041,11 @@ height: 4rem;
     .third img,
     .fourth_one img,
     .fourth_two img {
-        height: 80px;
+        height: 125px;
     }
     .p2marseille {
         font-size: 14px;
         font-weight: bold;
-        /* margin: auto 10px; */
         margin: 10px 0px 0px 10px;
         color: black;
     }
@@ -1106,7 +1055,6 @@ height: 4rem;
         background-color: #F2F2F2;
         display: flex;
         flex-direction: column;
-        /* align-content: flex-end; */
     }
     .footer_assistance,
     .footer_hebergement,
@@ -1117,9 +1065,23 @@ height: 4rem;
         margin-left: 30px;
     }
     .p2left {
-        font-size: 18px;
+        font-size: 16px;
+    }
+    .p2leftBis {
+        font-size: 1rem;
+        color: black;
+    }
+    .awesomeInfo {
+        width: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .titleHeight {
+        margin-left: -15px;
+    }
+    .titleHeight_2 {
+        font-size: 20px;
+        margin-left: 0px;
     }
 }
-
-
-/* Fin reation du navigateur principal 51c{10px10px 10px 10px 10px
